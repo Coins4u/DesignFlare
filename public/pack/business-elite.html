@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesignFlare — Business Elite</title>
+    <meta name="description" content="Request a project quote for the DesignFlare Business Elite tier.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: { extend: { fontFamily: { sans: ['Outfit', 'sans-serif'] } } }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/lead-form.css">
+</head>
+
+<body class="bg-slate-50 text-slate-900">
+    <header class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        <div class="flex items-center justify-between">
+            <a href="/" class="font-extrabold tracking-tight text-slate-900 text-lg">Checkout</a>
+        </div>
+    </header>
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+            <div class="pt-4">
+                <p class="text-xs font-semibold tracking-wider uppercase text-slate-500">Service request</p>
+                    <h1 class="text-3xl sm:text-4xl font-extrabold mt-2">Business Elite</h1>
+                <p class="text-slate-600 mt-4 leading-relaxed">
+                    Submit your details and we’ll email a Whop invoice with your payment link within 3–5 minutes. 
+                </p>
+
+                <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="glass rounded-2xl p-5">
+                        <p class="text-xs font-semibold tracking-wider uppercase text-slate-500">Requested tier</p>
+                        <p class="text-lg font-bold mt-1">Business Elite</p>
+                        <p class="text-slate-600 text-sm mt-1">€45.79</p>
+                    </div>
+                    <div class="glass rounded-2xl p-5">
+                        <p class="text-xs font-semibold tracking-wider uppercase text-slate-500">Next step</p>
+                        <p class="text-sm text-slate-700 mt-1">We’ll email your Whop invoice with a payment link.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl border border-slate-100 shadow-xl shadow-slate-200/60 p-8">
+                <div class="flex items-baseline justify-between gap-4">
+                    <h2 class="text-xl font-bold">Request Project Quote</h2>
+                    <div class="text-right">
+                        <p class="text-xs font-semibold tracking-wider uppercase text-slate-500">Price</p>
+                        <p class="text-2xl font-extrabold text-slate-900">€45.79</p>
+                    </div>
+                </div>
+
+
+
+                <form data-df-lead-form="true" data-tier-name="Business Elite" data-price="€45.79" class="mt-8">
+                    <div class="space-y-4">
+                        <div>
+                            <label class="df-label" for="fullName">Full Name</label>
+                            <input class="df-input" id="fullName" name="fullName" type="text" autocomplete="name"
+                                required />
+                        </div>
+                        <div>
+                            <label class="df-label" for="email">Business Email</label>
+                            <input class="df-input" id="email" name="email" type="email" autocomplete="email" required />
+                        </div>
+                        <div>
+                            <label class="df-label" for="country">Country</label>
+                            <input class="df-input" id="country" name="country" type="text" autocomplete="country-name"
+                                required />
+                        </div>
+
+                        <div class="hidden df-alert df-alert-error" data-df-error="true" role="alert"></div>
+                        <div class="hidden df-alert df-alert-success" data-df-success="true" role="status"></div>
+
+                        <button type="submit" class="df-primary-btn w-full">
+                            <span class="df-submit-idle">Submit order</span>
+                            <span class="df-submit-loading hidden"><i class="fas fa-circle-notch fa-spin mr-2"></i>Sending…</span>
+                        </button>
+
+                        <p class="text-xs text-slate-500 leading-relaxed">
+                            This request notifies our internal team only. We’ll review and email a Whop invoice with your payment link within 3–5 minutes.
+                        </p>
+                    </div>
+                </form>
+                <div class="df-billing-note">
+                    <p class="df-billing-note-title"><i class="fas fa-globe-europe mr-1"></i> Billing &amp; Localization Note</p>
+                    <p class="df-billing-note-text">DesignFlare operates a dynamic global ledger. All base digital assets are denominated in our primary corporate currency node. Listed Euro (€) checkout rates are calculated in real-time utilizing localized payment processing rails to ensure zero conversion spreads at settlement. Your final invoice receipt will accurately reflect these precise values under your secure data license identifier.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="/script.js?v=4"></script>
+</body>
+
+</html>

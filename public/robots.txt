@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow checkout redirect stubs (handled by provider)
+Disallow: /package/*
+
+Sitemap: https://designflare.de/sitemap.xml
+

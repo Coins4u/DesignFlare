@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coded Template Gallery | DesignFlare</title>
+    <meta name="description"
+        content="Browse DesignFlare coded templates — HTML/CSS niche bundles, Next.js developer kits, and enterprise React UI modules.">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            200: '#99f6e4',
+                            300: '#5eead4',
+                            400: '#2dd4bf',
+                            500: '#14b8a6',
+                            600: '#0d9488',
+                            700: '#0f766e',
+                            800: '#115e59',
+                            900: '#134e4a',
+                        },
+                        accent: {
+                            500: '#6366f1', // Indigo
+                            600: '#4f46e5',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <a href="index.html"
+                        class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">DesignFlare</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html#home"
+                        class="text-slate-600 hover:text-indigo-600 font-medium transition-colors relative group">
+                        Home
+                        <span
+                            class="absolute bottom-0 left-0 w-full h-0.5 bg-indigo-600 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+                    </a>
+                    <a href="templates.html" class="text-indigo-600 font-medium transition-colors relative group">
+                        Templates
+                        <span
+                            class="absolute bottom-0 left-0 w-full h-0.5 bg-indigo-600 transform scale-x-100 transition-transform origin-left"></span>
+                    </a>
+                    <a href="index.html#packages"
+                        class="text-slate-600 hover:text-indigo-600 font-medium transition-colors relative group">
+                        Packages
+                        <span
+                            class="absolute bottom-0 left-0 w-full h-0.5 bg-indigo-600 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+                    </a>
+                    <a href="index.html#features"
+                        class="text-slate-600 hover:text-indigo-600 font-medium transition-colors relative group">
+                        Features
+                        <span
+                            class="absolute bottom-0 left-0 w-full h-0.5 bg-indigo-600 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+                    </a>
+                    <a href="index.html#testimonials"
+                        class="text-slate-600 hover:text-indigo-600 font-medium transition-colors relative group">
+                        Testimonials
+                        <span
+                            class="absolute bottom-0 left-0 w-full h-0.5 bg-indigo-600 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+                    </a>
+                    <a href="contact.html"
+                        class="px-5 py-2.5 rounded-full bg-indigo-600 text-white font-medium hover:bg-indigo-700 transition-all shadow-lg shadow-indigo-500/30 hover:shadow-indigo-500/40">
+                        Contact
+                    </a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="text-slate-600 hover:text-indigo-600 focus:outline-none p-2">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu"
+            class="hidden md:hidden bg-white/95 backdrop-blur-xl border-t border-slate-100 absolute w-full left-0 shadow-xl">
+            <div class="px-4 pt-2 pb-6 space-y-2 flex flex-col">
+                <a href="index.html"
+                    class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors">Home</a>
+                <a href="templates.html"
+                    class="block px-3 py-3 text-base font-medium text-indigo-600 bg-indigo-50 rounded-lg transition-colors">Templates</a>
+                <a href="index.html#packages"
+                    class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors">Packages</a>
+                <a href="index.html#features"
+                    class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors">Features</a>
+                <a href="index.html#testimonials"
+                    class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors">Testimonials</a>
+                <a href="contact.html"
+                    class="block px-3 py-3 text-base font-bold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg text-center mt-4">Contact
+                    Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <!-- Header -->
+    <header class="relative pt-40 pb-20 overflow-hidden">
+        <!-- Background Gradient Mesh -->
+        <div class="absolute inset-0 bg-slate-900">
+            <div class="absolute inset-0 bg-gradient-to-br from-indigo-900/40 via-slate-900 to-slate-900"></div>
+            <div
+                class="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-500/20 via-slate-900/0 to-transparent">
+            </div>
+            <div
+                class="absolute -top-40 -right-40 w-96 h-96 bg-purple-500/30 rounded-full blur-3xl opacity-50 animate-pulse">
+            </div>
+            <div class="absolute top-40 -left-20 w-72 h-72 bg-teal-500/20 rounded-full blur-3xl opacity-50 animate-pulse"
+                style="animation-delay: 2s;"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <span
+                class="inline-block py-1 px-3 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-sm font-semibold mb-6 backdrop-blur-sm animate-fade-in-up">
+                ✨ Production Code Library
+            </span>
+            <h1
+                class="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white via-indigo-100 to-indigo-200 mb-6 tracking-tight animate-fade-in-up">
+                Coded Template Gallery</h1>
+            <p class="text-xl text-slate-300 max-w-2xl mx-auto animate-fade-in-up" style="animation-delay: 0.1s;">
+                1,100+ production assets across 8 packages — HTML/CSS landing systems, Next.js frameworks, and white-label React modules ready to deploy.</p>
+        </div>
+    </header>
+
+    <!-- Gallery Section -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- Tier Filter -->
+            <div class="flex flex-wrap justify-center gap-4 mb-16 animate-fade-in-up" style="animation-delay: 0.2s;">
+                <button
+                    class="px-6 py-2.5 bg-indigo-600 text-white rounded-full font-semibold shadow-lg shadow-indigo-500/30 transition-all hover:scale-105 active:scale-95">All
+                    Packages</button>
+                <button
+                    class="glass px-6 py-2.5 bg-white/80 text-slate-600 rounded-full hover:bg-white hover:text-indigo-600 font-medium border border-slate-200 transition-all hover:shadow-lg hover:-translate-y-0.5">Niche
+                    Bundles</button>
+                <button
+                    class="glass px-6 py-2.5 bg-white/80 text-slate-600 rounded-full hover:bg-white hover:text-indigo-600 font-medium border border-slate-200 transition-all hover:shadow-lg hover:-translate-y-0.5">Developer
+                    Kits</button>
+                <button
+                    class="glass px-6 py-2.5 bg-white/80 text-slate-600 rounded-full hover:bg-white hover:text-indigo-600 font-medium border border-slate-200 transition-all hover:shadow-lg hover:-translate-y-0.5">Agency
+                    Suite</button>
+            </div>
+
+            <!-- 8 Product Packages -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
+                <!-- Essential Pack -->
+                <div class="glass bg-white/60 rounded-2xl shadow-xl border border-slate-100 overflow-hidden hover:-translate-y-1 transition-all">
+                    <div class="bg-slate-900 p-4 font-mono text-xs text-emerald-400 h-36 overflow-hidden">
+                        <p class="text-slate-500">&lt;!-- Fashion landing --&gt;</p>
+                        <p><span class="text-purple-400">.df-hero</span> { min-height: 70vh; }</p>
+                        <p><span class="text-sky-400">--df-primary</span>: #be185d;</p>
+                    </div>
+                    <div class="p-5">
+                        <span class="text-xs font-bold uppercase text-indigo-600">Niche Bundle · €13.67</span>
+                        <h3 class="text-lg font-bold mt-1">Essential Pack</h3>
+                        <p class="text-sm text-slate-600 mt-2">45+ assets · 4 niche kits · HTML/CSS + email + Figma</p>
+                        <a href="/pack/essential-pack.html" class="mt-4 block text-center py-2.5 rounded-xl bg-indigo-600 text-white text-sm font-bold hover:bg-indigo-700">Get Pack</a>
+                    </div>
+                </div>
+                <!-- Starter Bundle -->
+                <div class="glass bg-white/60 rounded-2xl shadow-xl border border-slate-100 overflow-hidden hover:-translate-y-1 transition-all">
+                    <div class="bg-slate-900 p-4 font-mono text-xs text-emerald-400 h-36 overflow-hidden">
+                        <p class="text-slate-500">&lt;!-- Business kit --&gt;</p>
+                        <p><span class="text-purple-400">section</span>.df-features</p>
+                        <p><span class="text-sky-400">email</span>: table-safe HTML</p>
+                    </div>
+                    <div class="p-5">
+                        <span class="text-xs font-bold uppercase text-indigo-600">Niche Bundle · €23.12</span>
+                        <h3 class="text-lg font-bold mt-1">Starter Bundle</h3>
+                        <p class="text-sm text-slate-600 mt-2">65+ assets · 6 niche landing kits</p>
+                        <a href="/pack/starter-bundle.html" class="mt-4 block text-center py-2.5 rounded-xl bg-indigo-600 text-white text-sm font-bold hover:bg-indigo-700">Get Pack</a>
+                    </div>
+                </div>
+                <!-- Creative Kit -->
+                <div class="glass bg-white/60 rounded-2xl shadow-xl border border-slate-100 overflow-hidden hover:-translate-y-1 transition-all">
+                    <div class="bg-slate-900 p-4 font-mono text-xs text-emerald-400 h-36 overflow-hidden">
+                        <p class="text-slate-500">&lt;!-- Agency partial --&gt;</p>
+                        <p><span class="text-purple-400">.df-nav</span> sticky + blur</p>
+                        <p><span class="text-amber-300">7</span> portfolio niches</p>
+                    </div>
+                    <div class="p-5">
+                        <span class="text-xs font-bold uppercase text-indigo-600">Niche Bundle · €25.49</span>
+                        <h3 class="text-lg font-bold mt-1">Creative Kit</h3>
+                        <p class="text-sm text-slate-600 mt-2">75+ assets · 7 agency &amp; portfolio kits</p>
+                        <a href="/pack/creative-kit.html" class="mt-4 block text-center py-2.5 rounded-xl bg-indigo-600 text-white text-sm font-bold hover:bg-indigo-700">Get Pack</a>
+                    </div>
+                </div>
+                <!-- Growth Pro -->
+                <div class="glass bg-white/60 rounded-2xl shadow-xl border border-slate-100 overflow-hidden hover:-translate-y-1 transition-all">
+                    <div class="bg-slate-900 p-4 font-mono text-xs text-emerald-400 h-36 overflow-hidden">
+                        <p><span class="text-purple-400">export</span> async function POST()</p>
+                        <p><span class="text-sky-400">Next.js</span> 14 App Router</p>
+                        <p><span class="text-amber-300">8</span> SaaS frameworks</p>
+                    </div>
+                    <div class="p-5">
+                        <span class="text-xs font-bold uppercase text-indigo-600">Developer Kit · €35.53</span>
+                        <h3 class="text-lg font-bold mt-1">Growth Pro</h3>
+                        <p class="text-sm text-slate-600 mt-2">95+ assets · Next.js + React + API routes</p>
+                        <a href="/pack/growth-pro.html" class="mt-4 block text-center py-2.5 rounded-xl bg-indigo-600 text-white text-sm font-bold hover:bg-indigo-700">Get Pack</a>
+                    </div>
+                </div>
+                <!-- Professional Suite -->
+                <div class="glass bg-white/60 rounded-2xl shadow-xl border border-indigo-200 overflow-hidden hover:-translate-y-1 transition-all ring-2 ring-amber-400/30">
+                    <div class="bg-gradient-to-br from-slate-900 to-indigo-950 p-4 font-mono text-xs text-emerald-400 h-36 overflow-hidden">
+                        <p><span class="text-purple-400">Hero</span> + FeatureGrid.tsx</p>
+                        <p><span class="text-sky-400">rateLimit</span>(ip, 8, 60_000)</p>
+                        <p><span class="text-amber-300">10</span> full-stack kits</p>
+                    </div>
+                    <div class="p-5">
+                        <span class="text-xs font-bold uppercase text-amber-600">Developer Kit · €37.78 · Best Value</span>
+                        <h3 class="text-lg font-bold mt-1">Professional Suite</h3>
+                        <p class="text-sm text-slate-600 mt-2">110+ assets · 10 deploy-ready frameworks</p>
+                        <a href="/pack/professional-suite.html" class="mt-4 block text-center py-2.5 rounded-xl bg-gradient-to-r from-amber-400 to-amber-600 text-white text-sm font-bold hover:opacity-90">Get Pack</a>
+                    </div>
+                </div>
+                <!-- Business Elite -->
+                <div class="glass bg-white/60 rounded-2xl shadow-xl border border-slate-100 overflow-hidden hover:-translate-y-1 transition-all">
+                    <div class="bg-slate-900 p-4 font-mono text-xs text-emerald-400 h-36 overflow-hidden">
+                        <p><span class="text-purple-400">LeadForm</span> → fetch(apiRoute)</p>
+                        <p><span class="text-sky-400">validateLead</span>(payload)</p>
+                        <p><span class="text-amber-300">12</span> Next.js projects</p>
+                    </div>
+                    <div class="p-5">
+                        <span class="text-xs font-bold uppercase text-indigo-600">Developer Kit · €45.79</span>
+                        <h3 class="text-lg font-bold mt-1">Business Elite</h3>
+                        <p class="text-sm text-slate-600 mt-2">140+ assets · full React stack + middleware</p>
+                        <a href="/pack/business-elite.html" class="mt-4 block text-center py-2.5 rounded-xl bg-indigo-600 text-white text-sm font-bold hover:bg-indigo-700">Get Pack</a>
+                    </div>
+                </div>
+                <!-- Complete Marketing -->
+                <div class="glass bg-white/60 rounded-2xl shadow-xl border border-slate-100 overflow-hidden hover:-translate-y-1 transition-all">
+                    <div class="bg-slate-900 p-4 font-mono text-xs text-emerald-400 h-36 overflow-hidden">
+                        <p><span class="text-purple-400">BrandSystemBlock</span></p>
+                        <p><span class="text-sky-400">whiteLabel</span>: true</p>
+                        <p><span class="text-amber-300">14</span> enterprise modules</p>
+                    </div>
+                    <div class="p-5">
+                        <span class="text-xs font-bold uppercase text-indigo-600">Agency Suite · €49.56</span>
+                        <h3 class="text-lg font-bold mt-1">Complete Marketing</h3>
+                        <p class="text-sm text-slate-600 mt-2">160+ assets · white-label React library</p>
+                        <a href="/pack/complete-marketing.html" class="mt-4 block text-center py-2.5 rounded-xl bg-indigo-600 text-white text-sm font-bold hover:bg-indigo-700">Get Pack</a>
+                    </div>
+                </div>
+                <!-- Ultimate Collection -->
+                <div class="glass bg-white/60 rounded-2xl shadow-xl border border-slate-100 overflow-hidden hover:-translate-y-1 transition-all">
+                    <div class="bg-slate-900 p-4 font-mono text-xs text-emerald-400 h-36 overflow-hidden">
+                        <p><span class="text-purple-400">designTokens</span> + analytics</p>
+                        <p><span class="text-sky-400">lifetime</span> component drops</p>
+                        <p><span class="text-amber-300">200+</span> agency assets</p>
+                    </div>
+                    <div class="p-5">
+                        <span class="text-xs font-bold uppercase text-indigo-600">Agency Suite · €67.48</span>
+                        <h3 class="text-lg font-bold mt-1">Ultimate Collection</h3>
+                        <p class="text-sm text-slate-600 mt-2">200+ assets · 21 modules · lifetime license</p>
+                        <a href="/pack/ultimate-collection.html" class="mt-4 block text-center py-2.5 rounded-xl bg-indigo-600 text-white text-sm font-bold hover:bg-indigo-700">Get Pack</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sample Previews -->
+            <h2 class="text-2xl font-bold text-slate-900 mb-8 text-center">Inside the products</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
+                <!-- Fashion niche preview -->
+                <div class="glass bg-white rounded-2xl border border-slate-100 overflow-hidden shadow-lg">
+                    <div class="bg-rose-50 px-6 py-4 border-b border-rose-100">
+                        <span class="text-xs font-bold text-rose-700 uppercase">Essential Pack · Fashion</span>
+                        <h3 class="font-bold text-slate-900 mt-1">HTML/CSS Landing System</h3>
+                    </div>
+                    <div class="p-6">
+                        <ul class="text-sm text-slate-600 space-y-2">
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>fashion-landing.html + CSS tokens</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>6 HTML partials (nav, hero, CTA…)</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>4 ESP-ready email templates</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Figma wireframe handoff spec</li>
+                        </ul>
+                        <a href="/pack/essential-pack.html" class="mt-5 block text-center text-sm font-bold text-indigo-600 hover:text-indigo-800">Included in Essential Pack →</a>
+                    </div>
+                </div>
+                <!-- SaaS framework preview -->
+                <div class="glass bg-white rounded-2xl border border-slate-100 overflow-hidden shadow-lg">
+                    <div class="bg-indigo-50 px-6 py-4 border-b border-indigo-100">
+                        <span class="text-xs font-bold text-indigo-700 uppercase">Growth Pro · SaaS Launch</span>
+                        <h3 class="font-bold text-slate-900 mt-1">Next.js Full-Stack Kit</h3>
+                    </div>
+                    <div class="p-6">
+                        <ul class="text-sm text-slate-600 space-y-2">
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>layout.tsx + page.tsx + globals.css</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>8 React components (Hero, LeadForm…)</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Validated API route + rate limiting</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>tailwind.config.ts + package.json</li>
+                        </ul>
+                        <a href="/pack/growth-pro.html" class="mt-5 block text-center text-sm font-bold text-indigo-600 hover:text-indigo-800">Included in Growth Pro →</a>
+                    </div>
+                </div>
+                <!-- Enterprise module preview -->
+                <div class="glass bg-white rounded-2xl border border-slate-100 overflow-hidden shadow-lg">
+                    <div class="bg-purple-50 px-6 py-4 border-b border-purple-100">
+                        <span class="text-xs font-bold text-purple-700 uppercase">Complete Marketing · Brand System</span>
+                        <h3 class="font-bold text-slate-900 mt-1">Enterprise React Module</h3>
+                    </div>
+                    <div class="p-6">
+                        <ul class="text-sm text-slate-600 space-y-2">
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>BrandSystemBlock.tsx + types + hook</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Header, Content, Actions sub-components</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>design-tokens.ts + analytics.ts</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>White-label commercial license</li>
+                        </ul>
+                        <a href="/pack/complete-marketing.html" class="mt-5 block text-center text-sm font-bold text-indigo-600 hover:text-indigo-800">Included in Complete Marketing →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Details / Perks Section -->
+            <div class="py-20">
+                <div
+                    class="bg-indigo-900 rounded-2xl p-10 md:p-16 text-white text-center shadow-2xl relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
+                        <i class="fas fa-code absolute -top-10 -left-10 text-9xl"></i>
+                        <i class="fas fa-server absolute bottom-10 right-10 text-8xl"></i>
+                    </div>
+
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6 relative z-10">Why Choose Our Coded Templates?</h2>
+                    <p class="text-indigo-200 text-lg mb-12 max-w-3xl mx-auto relative z-10">Production source code — not drag-and-drop mockups. Ship client projects in hours, not weeks.</p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
+                        <div
+                            class="bg-indigo-800 bg-opacity-50 p-6 rounded-xl border border-indigo-700 hover:bg-opacity-80 transition duration-300">
+                            <div
+                                class="w-14 h-14 bg-white rounded-full flex items-center justify-center text-indigo-600 text-2xl mx-auto mb-4 font-bold shadow-lg">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Production Source Code</h3>
+                            <p class="text-indigo-200 text-sm">HTML/CSS, React TSX, Next.js App Router, and API middleware — copy into your repo and deploy.</p>
+                        </div>
+                        <div
+                            class="bg-indigo-800 bg-opacity-50 p-6 rounded-xl border border-indigo-700 hover:bg-opacity-80 transition duration-300">
+                            <div
+                                class="w-14 h-14 bg-white rounded-full flex items-center justify-center text-indigo-600 text-2xl mx-auto mb-4 font-bold shadow-lg">
+                                <i class="fas fa-layer-group"></i>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Three Clear Tiers</h3>
+                            <p class="text-indigo-200 text-sm">Niche bundles (€13–€25), developer kits (€35–€45), and agency suites (€49–€67) — pick your stack.</p>
+                        </div>
+                        <div
+                            class="bg-indigo-800 bg-opacity-50 p-6 rounded-xl border border-indigo-700 hover:bg-opacity-80 transition duration-300">
+                            <div
+                                class="w-14 h-14 bg-white rounded-full flex items-center justify-center text-indigo-600 text-2xl mx-auto mb-4 font-bold shadow-lg">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">ZIP Delivery</h3>
+                            <p class="text-indigo-200 text-sm">Download the full templates folder after purchase — every file listed in the product manifest is included.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- What's Included & How It Works -->
+            <div class="py-20 bg-white">
+                <div class="max-w-4xl mx-auto text-center mb-16">
+                    <h2 class="text-3xl font-bold mb-6">What's Inside Your Download?</h2>
+                    <p class="text-gray-600">Every package includes a structured <code class="text-indigo-600">templates/</code> folder with production source files and a license.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
+                    <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+                        <h3 class="text-xl font-bold mb-6 flex items-center">
+                            <i class="fas fa-box-open text-indigo-600 mr-3"></i>
+                            The Delivery Package
+                        </h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                                <div>
+                                    <span class="font-semibold block text-gray-900">ZIP Source Archive</span>
+                                    <span class="text-sm text-gray-600">Full templates folder — HTML, CSS, TSX, API routes, Figma specs, and README per module.</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                                <div>
+                                    <span class="font-semibold block text-gray-900">Commercial License</span>
+                                    <span class="text-sm text-gray-600">Deploy for your business and client projects. High tiers include white-label agency rights.</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                                <div>
+                                    <span class="font-semibold block text-gray-900">template-manifest.json</span>
+                                    <span class="text-sm text-gray-600">Machine-readable index of every asset in your pack — 45 to 200+ files depending on tier.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-bold mb-6">How It Works (3 Simple Steps)</h3>
+                        <div class="relative pl-8 border-l-2 border-indigo-100 space-y-8">
+                            <div class="relative">
+                                <span
+                                    class="absolute -left-11 top-0 bg-indigo-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold">1</span>
+                                <h4 class="font-bold text-gray-900 mb-1">Choose Your Package</h4>
+                                <p class="text-sm text-gray-600">Pick a tier: niche bundle, developer kit, or agency suite — matched to your price and stack.</p>
+                            </div>
+                            <div class="relative">
+                                <span
+                                    class="absolute -left-11 top-0 bg-indigo-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold">2</span>
+                                <h4 class="font-bold text-gray-900 mb-1">Download the ZIP</h4>
+                                <p class="text-sm text-gray-600">Receive the full source archive via email after payment — all assets from the product manifest included.</p>
+                            </div>
+                            <div class="relative">
+                                <span
+                                    class="absolute -left-11 top-0 bg-indigo-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold">3</span>
+                                <h4 class="font-bold text-gray-900 mb-1">Deploy to Production</h4>
+                                <p class="text-sm text-gray-600">Drop files into your project, customize tokens and copy, wire API routes, and ship.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Targeted FAQ Section -->
+            <div class="py-16 bg-gray-50 rounded-3xl mx-4 md:mx-0">
+                <div class="max-w-3xl mx-auto px-4">
+                    <h2 class="text-3xl font-bold text-center mb-10">Common Questions</h2>
+                    <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-xl shadow-sm">
+                            <h3 class="font-bold text-lg mb-2">What tech stack do I need?</h3>
+                            <p class="text-gray-600 text-sm">Low tiers use plain HTML/CSS — any editor works. Mid tiers require Node.js for Next.js 14. High tiers use React 18 + Tailwind CSS. All include README setup guides.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-sm">
+                            <h3 class="font-bold text-lg mb-2">How many files are in each pack?</h3>
+                            <p class="text-gray-600 text-sm">Essential Pack: 45+ · Starter: 65+ · Creative Kit: 75+ · Growth Pro: 95+ · Professional Suite: 110+ · Business Elite: 140+ · Complete Marketing: 160+ · Ultimate Collection: 200+.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-sm">
+                            <h3 class="font-bold text-lg mb-2">Can I use these for client projects?</h3>
+                            <p class="text-gray-600 text-sm">Yes. All tiers include commercial use. Complete Marketing and Ultimate Collection include white-label rights for agency client delivery.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-sm">
+                            <h3 class="font-bold text-lg mb-2">Do I need design skills?</h3>
+                            <p class="text-gray-600 text-sm">Basic HTML/CSS knowledge helps for low tiers. Developer kits assume familiarity with React. Each file is documented and structured for easy customization.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-300 py-20 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-2">
+                    <a href="index.html"
+                        class="text-3xl font-bold text-white mb-6 block bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-purple-400 w-fit">DesignFlare</a>
+                    <h3 class="text-white font-bold mb-4 text-lg">Contact</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-center text-slate-400"><i
+                                class="fas fa-user-circle w-6 text-indigo-500"></i> Ayoub Esadik</li>
+                        <li class="flex items-center text-slate-400"><i class="fas fa-envelope w-6 text-indigo-500"></i>
+                            ayoubesadik40@gmail.com</li>
+                        <li class="flex items-center text-slate-400"><i class="fas fa-phone w-6 text-indigo-500"></i>
+                            +212 637 338 555</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-bold mb-6 text-lg">Quick Links</h3>
+                    <ul class="space-y-4">
+                        <li><a href="index.html#home" class="hover:text-indigo-400 transition-colors">Home</a></li>
+                        <li><a href="templates.html" class="hover:text-indigo-400 transition-colors">Templates</a></li>
+                        <li><a href="index.html#packages" class="hover:text-indigo-400 transition-colors">Packages</a>
+                        </li>
+                        <li><a href="index.html#features" class="hover:text-indigo-400 transition-colors">Features</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-bold mb-6 text-lg">Legal & Support</h3>
+                    <ul class="space-y-4 mb-6">
+                        <li><a href="terms.html" class="hover:text-indigo-400 transition-colors">Terms of Service</a>
+                        </li>
+                        <li><a href="privacy.html" class="hover:text-indigo-400 transition-colors">Privacy Policy</a>
+                        </li>
+                        <li><a href="refund.html" class="hover:text-indigo-400 transition-colors">Refund Policy</a></li>
+                        <li><a href="about.html" class="hover:text-indigo-400 transition-colors">About Us</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-sm text-slate-500">&copy; 2024 DesignFlare. All rights reserved.</p>
+                <div class="flex items-center gap-6 text-slate-500 text-sm">
+                    <span class="flex items-center gap-2"><i class="fas fa-lock"></i> Secure Checkout</span>
+                    <span class="flex items-center gap-2"><i class="fas fa-bolt"></i> Instant Delivery</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js?v=5"></script></body>
+
+</html>

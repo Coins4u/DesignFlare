@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesignFlare — Premium Coded Templates | HTML, React & Next.js Kits</title>
+    <meta name="description"
+        content="DesignFlare offers production-ready coded templates — HTML/CSS components, Next.js landing pages, and React UI kits for developers and agencies.">
+    <link rel="canonical" href="https://designflare.de/">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="DesignFlare">
+    <meta name="keywords"
+        content="coded templates, html css templates, nextjs templates, react components, tailwind templates, developer kits, landing page code, email html templates">
+    <meta property="og:site_name" content="DesignFlare">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Premium Coded Templates | DesignFlare">
+    <meta property="og:description"
+        content="Production-ready HTML, React, and Next.js templates for developers and agencies. Deploy faster with pre-coded UI blocks.">
+    <meta property="og:url" content="https://designflare.de/">
+    <meta property="og:image" content="https://designflare.de/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Premium Coded Templates | DesignFlare">
+    <meta name="twitter:description"
+        content="Production-ready HTML, React, and Next.js templates for developers and agencies. Deploy faster with pre-coded UI blocks.">
+    <meta name="twitter:image" content="https://designflare.de/og-image.jpg">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            200: '#99f6e4',
+                            300: '#5eead4',
+                            400: '#2dd4bf',
+                            500: '#14b8a6',
+                            600: '#0d9488',
+                            700: '#0f766e',
+                            800: '#115e59',
+                            900: '#134e4a',
+                        },
+                        accent: {
+                            500: '#6366f1', // Indigo
+                            600: '#4f46e5',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="lead-form.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "DesignFlare",
+      "url": "https://designflare.de/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://designflare.de/",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "DesignFlare",
+      "url": "https://designflare.de/",
+      "email": "contact@designflare.de",
+      "logo": "https://designflare.de/og-image.jpg",
+      "sameAs": []
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Premium Coded Templates",
+      "description": "Production-ready HTML, React, and Next.js templates for developers and agencies",
+      "brand": {
+        "@type": "Brand",
+        "name": "DesignFlare"
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "USD",
+        "lowPrice": "12.97",
+        "highPrice": "64.97",
+        "offerCount": "12"
+      }
+    }
+    </script>
+</head>
+
+<body class="bg-gray-50">
+    <nav class="fixed w-full z-50 transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <a href="index.html"
+                        class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">DesignFlare</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html#home"
+                        class="text-slate-600 hover:text-indigo-600 font-medium transition-colors relative group">
+                        Home
+                        <span
+                            class="absolute bottom-0 left-0 w-full h-0.5 bg-indigo-600 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+                    </a>
+                    <a href="templates.html" class="text-indigo-600 font-medium transition-colors relative group">
+                        Templates
+                        <span
+                            class="absolute bottom-0 left-0 w-full h-0.5 bg-indigo-600 transform scale-x-100 transition-transform origin-left"></span>
+                    </a>
+                    <a href="index.html#packages"
+                        class="text-slate-600 hover:text-indigo-600 font-medium transition-colors relative group">
+                        Packages
+                        <span
+                            class="absolute bottom-0 left-0 w-full h-0.5 bg-indigo-600 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+                    </a>
+                    <a href="index.html#features"
+                        class="text-slate-600 hover:text-indigo-600 font-medium transition-colors relative group">
+                        Features
+                        <span
+                            class="absolute bottom-0 left-0 w-full h-0.5 bg-indigo-600 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+                    </a>
+                    <a href="index.html#testimonials"
+                        class="text-slate-600 hover:text-indigo-600 font-medium transition-colors relative group">
+                        Testimonials
+                        <span
+                            class="absolute bottom-0 left-0 w-full h-0.5 bg-indigo-600 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+                    </a>
+                    <a href="contact.html"
+                        class="px-5 py-2.5 rounded-full bg-indigo-600 text-white font-medium hover:bg-indigo-700 transition-all shadow-lg shadow-indigo-500/30 hover:shadow-indigo-500/40">
+                        Contact
+                    </a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="text-slate-600 hover:text-indigo-600 focus:outline-none p-2">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu"
+            class="hidden md:hidden bg-white/95 backdrop-blur-xl border-t border-slate-100 absolute w-full left-0 shadow-xl">
+            <div class="px-4 pt-2 pb-6 space-y-2 flex flex-col">
+                <a href="index.html"
+                    class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors">Home</a>
+                <a href="templates.html"
+                    class="block px-3 py-3 text-base font-medium text-indigo-600 bg-indigo-50 rounded-lg transition-colors">Templates</a>
+                <a href="index.html#packages"
+                    class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors">Packages</a>
+                <a href="index.html#features"
+                    class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors">Features</a>
+                <a href="index.html#testimonials"
+                    class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors">Testimonials</a>
+                <a href="contact.html"
+                    class="block px-3 py-3 text-base font-bold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg text-center mt-4">Contact
+                    Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative pt-32 pb-20 overflow-hidden">
+        <!-- Background Gradient Mesh -->
+        <div class="absolute inset-0 bg-slate-900">
+            <div class="absolute inset-0 bg-gradient-to-br from-indigo-900/40 via-slate-900 to-slate-900"></div>
+            <div
+                class="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-500/20 via-slate-900/0 to-transparent">
+            </div>
+            <div
+                class="absolute -top-40 -right-40 w-96 h-96 bg-purple-500/30 rounded-full blur-3xl opacity-50 animate-pulse">
+            </div>
+            <div class="absolute top-40 -left-20 w-72 h-72 bg-teal-500/20 rounded-full blur-3xl opacity-50 animate-pulse"
+                style="animation-delay: 2s;"></div>
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center z-10">
+            <span
+                class="inline-block py-1 px-3 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-sm font-semibold mb-6 backdrop-blur-sm animate-fade-in-up">
+                ✨ Premium Coded Templates
+            </span>
+            <h1 class="text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white via-indigo-100 to-indigo-200 mb-6 tracking-tight animate-fade-in-up"
+                style="animation-delay: 0.1s;">
+                Level Up Your <br class="hidden md:block" />
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-purple-400">Digital
+                    Presence</span>
+            </h1>
+            <p class="text-xl text-slate-300 mb-10 max-w-3xl mx-auto leading-relaxed animate-fade-in-up"
+                style="animation-delay: 0.2s;">
+                Ship faster with 290+ production-ready code assets — HTML/CSS blocks, Next.js frameworks, and React UI kits.
+                One-time download. Deploy immediately.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in-up"
+                style="animation-delay: 0.3s;">
+                <a href="templates.html"
+                    class="group relative inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-200 bg-indigo-600 rounded-full hover:bg-indigo-700 hover:shadow-lg hover:shadow-indigo-500/30 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600 overflow-hidden">
+                    <span
+                        class="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-black"></span>
+                    <span class="relative flex items-center gap-2">
+                        View Gallery <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                    </span>
+                </a>
+                <a href="#packages"
+                    class="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-200 bg-white/5 border border-white/10 rounded-full hover:bg-white/10 hover:border-white/20 hover:shadow-lg backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white/20">
+                    View Packages
+                </a>
+            </div>
+
+            <!-- Trust Badges -->
+            <div class="mt-16 pt-8 border-t border-white/5 flex flex-wrap justify-center gap-8 opacity-60 animate-fade-in-up"
+                style="animation-delay: 0.4s;">
+                <div class="flex items-center gap-2 text-slate-400">
+                    <i class="fas fa-check-circle text-indigo-400"></i> <span>Instant Access</span>
+                </div>
+                <div class="flex items-center gap-2 text-slate-400">
+                    <i class="fas fa-check-circle text-indigo-400"></i> <span>Fully Editable</span>
+                </div>
+                <div class="flex items-center gap-2 text-slate-400">
+                    <i class="fas fa-check-circle text-indigo-400"></i> <span>Secure Payment</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Features Section -->
+    <!-- Features Section -->
+    <section id="features" class="py-24 bg-slate-50 relative overflow-hidden">
+        <!-- Background decorative blobs -->
+        <div
+            class="absolute top-0 right-0 w-96 h-96 bg-indigo-200/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2">
+        </div>
+        <div
+            class="absolute bottom-0 left-0 w-96 h-96 bg-purple-200/20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2">
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Why Choose DesignFlare?</h2>
+                <p class="text-lg text-slate-600 max-w-2xl mx-auto">Everything you need to create professional marketing
+                    materials without the professional price tag.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div
+                    class="glass bg-white/60 p-8 rounded-2xl hover:-translate-y-2 transition-transform duration-300 border border-white/50 shadow-xl shadow-slate-200/50">
+                    <div
+                        class="w-14 h-14 bg-indigo-100 rounded-xl flex items-center justify-center text-indigo-600 mb-6 group-hover:bg-indigo-600 group-hover:text-white transition-colors">
+                        <i class="fas fa-layer-group text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-800">Massive Library</h3>
+                    <p class="text-slate-600 leading-relaxed">Niche bundles, full-stack dev kits, and enterprise UI libraries across every business vertical.</p>
+                </div>
+
+                <div
+                    class="glass bg-white/60 p-8 rounded-2xl hover:-translate-y-2 transition-transform duration-300 border border-white/50 shadow-xl shadow-slate-200/50">
+                    <div
+                        class="w-14 h-14 bg-purple-100 rounded-xl flex items-center justify-center text-purple-600 mb-6 group-hover:bg-purple-600 group-hover:text-white transition-colors">
+                        <i class="fas fa-link text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-800">Production-Ready Code</h3>
+                    <p class="text-slate-600 leading-relaxed">HTML/CSS, React, and Next.js source files — copy, customize, and deploy to production.</p>
+                </div>
+
+                <div
+                    class="glass bg-white/60 p-8 rounded-2xl hover:-translate-y-2 transition-transform duration-300 border border-white/50 shadow-xl shadow-slate-200/50">
+                    <div
+                        class="w-14 h-14 bg-teal-100 rounded-xl flex items-center justify-center text-teal-600 mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+                        <i class="fas fa-chart-line text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-800">High Conversion</h3>
+                    <p class="text-slate-600 leading-relaxed">Professionally designed layouts proven to increase
+                        engagement and sales.</p>
+                </div>
+            </div>
+
+            <div
+                class="mt-16 flex flex-col md:flex-row justify-center items-center gap-6 text-sm text-slate-500 bg-white/50 backdrop-blur-sm p-4 rounded-xl inline-block mx-auto border border-white/60">
+                <span class="flex items-center"><i class="fas fa-shield-alt text-green-500 mr-2"></i> 100% Original
+                    Designs</span>
+                <span class="hidden md:inline text-slate-300">|</span>
+                <span class="flex items-center"><i class="fas fa-copyright text-indigo-500 mr-2"></i> Commercial License
+                    Included</span>
+                <span class="hidden md:inline text-slate-300">|</span>
+                <span class="flex items-center"><i class="fas fa-headset text-purple-500 mr-2"></i> 24/7 Priority
+                    Support</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 id="how" class="text-3xl font-bold text-center mb-12">How It Works</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="bg-indigo-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-indigo-600">1</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Choose Your Package</h3>
+                    <p class="text-gray-600">Browse niche bundles, developer kits, or enterprise suites matched to your stack and budget.</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-indigo-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-indigo-600">2</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Secure Payment</h3>
+                    <p class="text-gray-600">Complete your purchase securely through PayPal with instant payment
+                        confirmation.</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-indigo-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-indigo-600">3</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Download Source Code</h3>
+                    <p class="text-gray-600">Receive your ZIP archive with HTML, CSS, TSX, and API route files instantly via email.</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-indigo-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-indigo-600">4</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Deploy to Production</h3>
+                    <p class="text-gray-600">Drop components into your project, wire API middleware, and launch your landing page or campaign.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Catalog Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-4">8 Product Packages · 1,100+ Assets</h2>
+            <p class="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
+                Three tiers of coded templates — from niche HTML/CSS bundles to full-stack Next.js kits and enterprise React libraries.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div class="bg-indigo-50 rounded-2xl p-6 border border-indigo-100">
+                    <div class="flex items-center gap-3 mb-3">
+                        <i class="fas fa-paint-brush text-2xl text-indigo-600"></i>
+                        <h3 class="font-bold text-lg">Niche Bundles</h3>
+                    </div>
+                    <p class="text-sm text-slate-600 mb-3">€13.67 – €25.49 · 45–75+ assets each</p>
+                    <ul class="text-sm text-slate-700 space-y-1">
+                        <li>Essential Pack · 4 niches</li>
+                        <li>Starter Bundle · 6 niches</li>
+                        <li>Creative Kit · 7 niches</li>
+                    </ul>
+                    <p class="text-xs text-slate-500 mt-3">HTML/CSS · Email HTML · Figma specs</p>
+                </div>
+                <div class="bg-slate-900 rounded-2xl p-6 border border-slate-700 text-white">
+                    <div class="flex items-center gap-3 mb-3">
+                        <i class="fas fa-code text-2xl text-indigo-400"></i>
+                        <h3 class="font-bold text-lg">Developer Kits</h3>
+                    </div>
+                    <p class="text-sm text-slate-300 mb-3">€35.53 – €45.79 · 95–140+ assets each</p>
+                    <ul class="text-sm text-slate-200 space-y-1">
+                        <li>Growth Pro · 8 frameworks</li>
+                        <li>Professional Suite · 10 frameworks</li>
+                        <li>Business Elite · 12 frameworks</li>
+                    </ul>
+                    <p class="text-xs text-slate-400 mt-3">Next.js 14 · React · Tailwind · API routes</p>
+                </div>
+                <div class="bg-purple-50 rounded-2xl p-6 border border-purple-100">
+                    <div class="flex items-center gap-3 mb-3">
+                        <i class="fas fa-building text-2xl text-purple-600"></i>
+                        <h3 class="font-bold text-lg">Agency Suite</h3>
+                    </div>
+                    <p class="text-sm text-slate-600 mb-3">€49.56 – €67.48 · 160–200+ assets</p>
+                    <ul class="text-sm text-slate-700 space-y-1">
+                        <li>Complete Marketing · 14 modules</li>
+                        <li>Ultimate Collection · 21 modules</li>
+                    </ul>
+                    <p class="text-xs text-slate-500 mt-3">White-label React · Design tokens · Lifetime access</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-3 text-center text-sm">
+                <div class="bg-gray-50 rounded-lg p-3"><p class="font-bold text-indigo-600">€13.67</p><p class="text-slate-600 text-xs mt-1">Essential</p></div>
+                <div class="bg-gray-50 rounded-lg p-3"><p class="font-bold text-indigo-600">€23.12</p><p class="text-slate-600 text-xs mt-1">Starter</p></div>
+                <div class="bg-gray-50 rounded-lg p-3"><p class="font-bold text-indigo-600">€25.49</p><p class="text-slate-600 text-xs mt-1">Creative</p></div>
+                <div class="bg-gray-50 rounded-lg p-3"><p class="font-bold text-indigo-600">€35.53</p><p class="text-slate-600 text-xs mt-1">Growth Pro</p></div>
+                <div class="bg-gray-50 rounded-lg p-3 ring-2 ring-amber-400/50"><p class="font-bold text-amber-600">€37.78</p><p class="text-slate-600 text-xs mt-1">Professional</p></div>
+                <div class="bg-gray-50 rounded-lg p-3"><p class="font-bold text-indigo-600">€45.79</p><p class="text-slate-600 text-xs mt-1">Business Elite</p></div>
+                <div class="bg-gray-50 rounded-lg p-3"><p class="font-bold text-indigo-600">€49.56</p><p class="text-slate-600 text-xs mt-1">Complete</p></div>
+                <div class="bg-gray-50 rounded-lg p-3"><p class="font-bold text-indigo-600">€67.48</p><p class="text-slate-600 text-xs mt-1">Ultimate</p></div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="templates.html"
+                    class="inline-block bg-indigo-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-indigo-700 transition duration-300">
+                    Browse Coded Template Gallery
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-24 bg-white relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
+            <div class="absolute -top-40 -left-40 w-96 h-96 bg-indigo-50 rounded-full blur-3xl opacity-50"></div>
+            <div class="absolute top-1/2 right-0 w-72 h-72 bg-purple-50 rounded-full blur-3xl opacity-50"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <span class="text-indigo-600 font-semibold tracking-wider uppercase text-sm mb-2 block">Why
+                        DesignFlare?</span>
+                    <h2 class="text-3xl md:text-5xl font-bold text-slate-900 mb-8">Work Smarter, <br />Not Harder</h2>
+
+                    <div class="space-y-8">
+                        <div class="flex items-start group">
+                            <div
+                                class="flex-shrink-0 w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center mr-5 group-hover:bg-indigo-600 group-hover:text-white transition-all duration-300">
+                                <i class="fas fa-clock text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-800 mb-2">Save 100+ Hours</h4>
+                                <p class="text-slate-600 leading-relaxed">Skip the design process. Get straight to
+                                    publishing professional content that grows your business.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start group">
+                            <div
+                                class="flex-shrink-0 w-12 h-12 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center mr-5 group-hover:bg-purple-600 group-hover:text-white transition-all duration-300">
+                                <i class="fas fa-wallet text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-800 mb-2">Cost Effective</h4>
+                                <p class="text-slate-600 leading-relaxed">No monthly fees. No expensive designer rates.
+                                    One time payment for lifetime value.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start group">
+                            <div
+                                class="flex-shrink-0 w-12 h-12 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center mr-5 group-hover:bg-teal-600 group-hover:text-white transition-all duration-300">
+                                <i class="fas fa-rocket text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-800 mb-2">Launch Fast</h4>
+                                <p class="text-slate-600 leading-relaxed">Start your marketing campaign today. Instant
+                                    delivery means you can post within minutes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-tr from-indigo-500 to-purple-500 rounded-3xl transform rotate-3 scale-105 opacity-20 blur-lg">
+                    </div>
+                    <div class="bg-white rounded-3xl p-8 shadow-2xl relative border border-slate-100">
+                        <h3 class="text-2xl font-bold mb-8 text-slate-900">Perfect For</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div
+                                class="p-6 bg-slate-50 rounded-2xl text-center hover:bg-indigo-50 transition-colors cursor-default border border-slate-100 hover:border-indigo-100">
+                                <i class="fas fa-store text-3xl text-indigo-500 mb-3"></i>
+                                <p class="font-bold text-slate-700">Small Business</p>
+                            </div>
+                            <div
+                                class="p-6 bg-slate-50 rounded-2xl text-center hover:bg-purple-50 transition-colors cursor-default border border-slate-100 hover:border-purple-100">
+                                <i class="fas fa-laptop-code text-3xl text-purple-500 mb-3"></i>
+                                <p class="font-bold text-slate-700">Freelancers</p>
+                            </div>
+                            <div
+                                class="p-6 bg-slate-50 rounded-2xl text-center hover:bg-teal-50 transition-colors cursor-default border border-slate-100 hover:border-teal-100">
+                                <i class="fas fa-bullhorn text-3xl text-teal-500 mb-3"></i>
+                                <p class="font-bold text-slate-700">Marketers</p>
+                            </div>
+                            <div
+                                class="p-6 bg-slate-50 rounded-2xl text-center hover:bg-pink-50 transition-colors cursor-default border border-slate-100 hover:border-pink-100">
+                                <i class="fas fa-hashtag text-3xl text-pink-500 mb-3"></i>
+                                <p class="font-bold text-slate-700">Creators</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="py-24 bg-slate-50 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-indigo-600 font-semibold tracking-wider uppercase text-sm">Transparent Pricing</span>
+                <h2 class="text-3xl md:text-5xl font-bold text-slate-900 mt-2 mb-6">Complete Template Collection</h2>
+                <p class="text-xl text-slate-600 max-w-2xl mx-auto">
+                    Choose the perfect package for your needs. One-time payment, lifetime access.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Pack 1 -->
+                <div
+                    class="bg-white rounded-2xl shadow-xl shadow-slate-200/50 overflow-hidden hover:shadow-2xl hover:shadow-indigo-500/10 transition-all duration-300 group border border-slate-100">
+                    <div class="p-8">
+                        <div
+                            class="w-12 h-12 rounded-full bg-indigo-50 text-indigo-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fas fa-envelope text-xl"></i>
+                        </div>
+                        <p class="text-xs font-semibold text-indigo-600 uppercase tracking-wider mb-2">Niche Bundle</p>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Essential Pack</h3>
+                        <div class="flex items-baseline mb-6">
+                            <span class="text-4xl font-extrabold text-slate-900">€13.67</span>
+                        </div>
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> 45+ coded assets included
+                            </li>
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> 4 niche landing page kits
+                            </li>
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> HTML/CSS, email &amp; Figma specs
+                            </li>
+                        </ul>
+                        <a href="/pack/essential-pack.html"
+                            class="block w-full py-3 px-6 text-center rounded-xl bg-slate-100 text-indigo-700 font-bold hover:bg-indigo-600 hover:text-white transition-all duration-300">
+                            Request Project Quote
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Pack 2 -->
+                <div
+                    class="bg-white rounded-2xl shadow-xl shadow-slate-200/50 overflow-hidden hover:shadow-2xl hover:shadow-indigo-500/10 transition-all duration-300 group border border-slate-100 relative">
+                    <div
+                        class="absolute top-0 right-0 bg-gradient-to-l from-indigo-500 to-purple-500 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">
+                        POPULAR</div>
+                    <div class="p-8">
+                        <div
+                            class="w-12 h-12 rounded-full bg-indigo-50 text-indigo-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fas fa-bullhorn text-xl"></i>
+                        </div>
+                        <p class="text-xs font-semibold text-indigo-600 uppercase tracking-wider mb-2">Niche Bundle</p>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Starter Bundle</h3>
+                        <div class="flex items-baseline mb-6">
+                            <span class="text-4xl font-extrabold text-slate-900">€23.12</span>
+                        </div>
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> 65+ coded assets included
+                            </li>
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> 6 niche landing page kits
+                            </li>
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> HTML/CSS, email &amp; Figma specs
+                            </li>
+                        </ul>
+                        <a href="/pack/starter-bundle.html"
+                            class="block w-full py-3 px-6 text-center rounded-xl bg-indigo-600 text-white font-bold hover:bg-indigo-700 hover:shadow-lg hover:shadow-indigo-500/30 transition-all duration-300">
+                            Request Project Quote
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Pack 3 -->
+                <div
+                    class="bg-white rounded-2xl shadow-xl shadow-slate-200/50 overflow-hidden hover:shadow-2xl hover:shadow-indigo-500/10 transition-all duration-300 group border border-slate-100">
+                    <div class="p-8">
+                        <div
+                            class="w-12 h-12 rounded-full bg-indigo-50 text-indigo-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fas fa-palette text-xl"></i>
+                        </div>
+                        <p class="text-xs font-semibold text-indigo-600 uppercase tracking-wider mb-2">Niche Bundle</p>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Creative Kit</h3>
+                        <div class="flex items-baseline mb-6">
+                            <span class="text-4xl font-extrabold text-slate-900">€25.49</span>
+                        </div>
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> 75+ coded assets included
+                            </li>
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> 7 agency &amp; portfolio kits
+                            </li>
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> HTML/CSS, email &amp; Figma specs
+                            </li>
+                        </ul>
+                        <a href="/pack/creative-kit.html"
+                            class="block w-full py-3 px-6 text-center rounded-xl bg-slate-100 text-indigo-700 font-bold hover:bg-indigo-600 hover:text-white transition-all duration-300">
+                            Request Project Quote
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Pack 4 -->
+                <div
+                    class="bg-white rounded-2xl shadow-xl shadow-slate-200/50 overflow-hidden hover:shadow-2xl hover:shadow-indigo-500/10 transition-all duration-300 group border border-slate-100">
+                    <div class="p-8">
+                        <div
+                            class="w-12 h-12 rounded-full bg-indigo-50 text-indigo-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fas fa-briefcase text-xl"></i>
+                        </div>
+                        <p class="text-xs font-semibold text-indigo-600 uppercase tracking-wider mb-2">Developer Kit</p>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Growth Pro</h3>
+                        <div class="flex items-baseline mb-6">
+                            <span class="text-4xl font-extrabold text-slate-900">€35.53</span>
+                        </div>
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> 95+ coded assets included
+                            </li>
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> 8 Next.js + Tailwind frameworks
+                            </li>
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> React components &amp; API middleware
+                            </li>
+                        </ul>
+                        <a href="/pack/growth-pro.html"
+                            class="block w-full py-3 px-6 text-center rounded-xl bg-slate-100 text-indigo-700 font-bold hover:bg-indigo-600 hover:text-white transition-all duration-300">
+                            Request Project Quote
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Pack 5 -->
+                <div
+                    class="bg-gradient-to-b from-slate-900 to-indigo-900 rounded-2xl shadow-xl shadow-indigo-900/50 overflow-hidden hover:shadow-2xl hover:shadow-indigo-500/40 transition-all duration-300 group border border-indigo-700 relative transform md:-translate-y-4">
+                    <div
+                        class="absolute top-0 right-0 bg-gradient-to-l from-amber-400 to-amber-600 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">
+                        BEST VALUE</div>
+                    <div class="p-8">
+                        <div
+                            class="w-12 h-12 rounded-full bg-white/10 text-white flex items-center justify-center mb-6 group-hover:scale-110 transition-transform backdrop-blur-sm">
+                            <i class="fas fa-gem text-xl"></i>
+                        </div>
+                        <p class="text-xs font-semibold text-amber-400 uppercase tracking-wider mb-2">Developer Kit</p>
+                        <h3 class="text-lg font-bold text-white mb-2">Professional Suite</h3>
+                        <div class="flex items-baseline mb-6">
+                            <span class="text-4xl font-extrabold text-white">€37.78</span>
+                        </div>
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-start text-slate-300 text-sm">
+                                <i class="fas fa-check text-amber-400 mt-1 mr-3"></i> 110+ coded assets included
+                            </li>
+                            <li class="flex items-start text-slate-300 text-sm">
+                                <i class="fas fa-check text-amber-400 mt-1 mr-3"></i> 10 full-stack landing frameworks
+                            </li>
+                            <li class="flex items-start text-slate-300 text-sm">
+                                <i class="fas fa-check text-amber-400 mt-1 mr-3"></i> Next.js, React &amp; API routes
+                            </li>
+                        </ul>
+                        <a href="/pack/professional-suite.html"
+                            class="block w-full py-3 px-6 text-center rounded-xl bg-gradient-to-r from-amber-400 to-amber-600 text-white font-bold hover:shadow-lg hover:shadow-amber-500/40 transition-all duration-300">
+                            Request Project Quote
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Pack 6 -->
+                <div
+                    class="bg-white rounded-2xl shadow-xl shadow-slate-200/50 overflow-hidden hover:shadow-2xl hover:shadow-indigo-500/10 transition-all duration-300 group border border-slate-100">
+                    <div class="p-8">
+                        <div
+                            class="w-12 h-12 rounded-full bg-indigo-50 text-indigo-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fas fa-trophy text-xl"></i>
+                        </div>
+                        <p class="text-xs font-semibold text-indigo-600 uppercase tracking-wider mb-2">Developer Kit</p>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Business Elite</h3>
+                        <div class="flex items-baseline mb-6">
+                            <span class="text-4xl font-extrabold text-slate-900">€45.79</span>
+                        </div>
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> 140+ coded assets included
+                            </li>
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> 12 deploy-ready Next.js kits
+                            </li>
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> Full React stack &amp; API middleware
+                            </li>
+                        </ul>
+                        <a href="/pack/business-elite.html"
+                            class="block w-full py-3 px-6 text-center rounded-xl bg-slate-100 text-indigo-700 font-bold hover:bg-indigo-600 hover:text-white transition-all duration-300">
+                            Request Project Quote
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Pack 7 -->
+                <div
+                    class="bg-white rounded-2xl shadow-xl shadow-slate-200/50 overflow-hidden hover:shadow-2xl hover:shadow-indigo-500/10 transition-all duration-300 group border border-slate-100">
+                    <div class="p-8">
+                        <div
+                            class="w-12 h-12 rounded-full bg-indigo-50 text-indigo-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fas fa-star text-xl"></i>
+                        </div>
+                        <p class="text-xs font-semibold text-indigo-600 uppercase tracking-wider mb-2">Agency Suite</p>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Complete Marketing</h3>
+                        <div class="flex items-baseline mb-6">
+                            <span class="text-4xl font-extrabold text-slate-900">€49.56</span>
+                        </div>
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> 160+ coded assets included
+                            </li>
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> 14 enterprise UI modules
+                            </li>
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> White-label commercial rights
+                            </li>
+                        </ul>
+                        <a href="/pack/complete-marketing.html"
+                            class="block w-full py-3 px-6 text-center rounded-xl bg-slate-100 text-indigo-700 font-bold hover:bg-indigo-600 hover:text-white transition-all duration-300">
+                            Request Project Quote
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Pack 8 -->
+                <div
+                    class="bg-white rounded-2xl shadow-xl shadow-slate-200/50 overflow-hidden hover:shadow-2xl hover:shadow-indigo-500/10 transition-all duration-300 group border border-slate-100">
+                    <div class="p-8">
+                        <div
+                            class="w-12 h-12 rounded-full bg-indigo-50 text-indigo-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fas fa-infinity text-xl"></i>
+                        </div>
+                        <p class="text-xs font-semibold text-indigo-600 uppercase tracking-wider mb-2">Agency Suite</p>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Ultimate Collection</h3>
+                        <div class="flex items-baseline mb-6">
+                            <span class="text-4xl font-extrabold text-slate-900">€67.48</span>
+                        </div>
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> 200+ coded assets included
+                            </li>
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> 21 enterprise UI modules
+                            </li>
+                            <li class="flex items-start text-slate-600 text-sm">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i> Lifetime white-label agency license
+                            </li>
+                        </ul>
+                        <a href="/pack/ultimate-collection.html"
+                            class="block w-full py-3 px-6 text-center rounded-xl bg-indigo-600 text-white font-bold hover:bg-indigo-700 hover:shadow-lg hover:shadow-indigo-500/30 transition-all duration-300">
+                            Request Project Quote
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Payment & Security Section -->
+    <section id="security" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold mb-4">Payment & Security</h2>
+                    <p class="text-gray-600 mb-4">All payments are processed by trusted providers. We never store full
+                        payment card details on our servers. Your purchase is delivered instantly after payment.</p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-start"><i class="fas fa-lock text-green-500 mr-2 mt-1"></i><span>Secure
+                                checkout with SSL encryption</span></li>
+                        <li class="flex items-start"><i
+                                class="fas fa-shield-alt text-green-500 mr-2 mt-1"></i><span>Original, non‑infringing
+                                products created by DesignFlare</span></li>
+                        <li class="flex items-start"><i
+                                class="fas fa-undo-alt text-green-500 mr-2 mt-1"></i><span>Refunds handled per our <a
+                                    href="/refund.html" class="text-indigo-600 underline">Refund Policy</a></span></li>
+                        <li class="flex items-start"><i
+                                class="fas fa-headset text-green-500 mr-2 mt-1"></i><span>Support: <a
+                                    href="mailto:contact@designflare.de"
+                                    class="text-indigo-600">contact@designflare.de</a> (reply within 24–48h)</span></li>
+                    </ul>
+                    <div class="df-billing-note mt-6">
+                        <p class="df-billing-note-title"><i class="fas fa-globe-europe mr-1"></i> Billing &amp; Localization Note</p>
+                        <p class="df-billing-note-text">DesignFlare operates a dynamic global ledger. All base digital assets are denominated in our primary corporate currency node. Listed Euro (€) checkout rates are calculated in real-time utilizing localized payment processing rails to ensure zero conversion spreads at settlement. Your final invoice receipt will accurately reflect these precise values under your secure data license identifier.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-xl p-6">
+                    <h3 class="font-semibold mb-4">Accepted Payments</h3>
+                    <div class="text-4xl text-gray-500 flex items-center space-x-6">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-amex"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <p class="text-xs text-gray-500 mt-4">Your statement may show charges from our storefront provider.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-white relative">
+        <div class="absolute inset-0 bg-slate-50/50 skew-y-3 transform origin-bottom-right translate-y-20 -z-10"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-5xl font-bold text-center mb-4 text-slate-900">Loved by Creators</h2>
+            <p class="text-lg text-slate-600 text-center mb-16 max-w-2xl mx-auto">
+                Join thousands of satisfied customers who have improved their workflow with our templates.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100 hover:shadow-2xl transition-shadow relative">
+                    <div class="absolute -top-4 -left-4 text-6xl text-indigo-100 font-serif leading-none">"</div>
+                    <div class="flex text-amber-400 mb-4">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-slate-600 mb-6 relative z-10 leading-relaxed">
+                        The coded templates saved me days of work! I dropped the Next.js kit into my project and had a landing page live the same afternoon.
+                    </p>
+                    <div class="flex items-center gap-4 border-t border-slate-100 pt-6">
+                        <img src="https://ui-avatars.com/api/?name=Sarah+Johnson&background=indigo&color=fff"
+                            alt="Sarah Johnson" class="w-12 h-12 rounded-full ring-2 ring-indigo-50">
+                        <div>
+                            <p class="font-bold text-slate-900">Sarah Johnson</p>
+                            <p class="text-sm text-slate-500">Freelance Designer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div
+                    class="bg-indigo-600 p-8 rounded-2xl shadow-xl shadow-indigo-200/50 text-white transform md:-translate-y-4">
+                    <div class="flex text-amber-400 mb-4">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-indigo-100 mb-6 leading-relaxed">
+                        DesignFlare transformed my agency workflow! The React components and API middleware let us ship client sites in days instead of weeks.
+                    </p>
+                    <div class="flex items-center gap-4 border-t border-indigo-500 pt-6">
+                        <img src="https://ui-avatars.com/api/?name=Mike+Thompson&background=white&color=4f46e5"
+                            alt="Mike Thompson" class="w-12 h-12 rounded-full ring-2 ring-indigo-400">
+                        <div>
+                            <p class="font-bold">Mike Thompson</p>
+                            <p class="text-sm text-indigo-300">Social Media Manager</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100 hover:shadow-2xl transition-shadow relative">
+                    <div class="absolute -top-4 -left-4 text-6xl text-indigo-100 font-serif leading-none">"</div>
+                    <div class="flex text-amber-400 mb-4">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-slate-600 mb-6 relative z-10 leading-relaxed">
+                        Premium templates worth every penny. Accelerated our marketing process and helped us create
+                        professional campaigns that convert. A game changer for our agency.
+                    </p>
+                    <div class="flex items-center gap-4 border-t border-slate-100 pt-6">
+                        <img src="https://ui-avatars.com/api/?name=Emily+Chen&background=indigo&color=fff"
+                            alt="Emily Chen" class="w-12 h-12 rounded-full ring-2 ring-indigo-50">
+                        <div>
+                            <p class="font-bold text-slate-900">Emily Chen</p>
+                            <p class="text-sm text-slate-500">UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQs Section -->
+    <section id="faqs" class="py-24 bg-slate-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-5xl font-bold text-center mb-12 text-slate-900">Frequently Asked Questions</h2>
+            <div class="space-y-6">
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-lg shadow-slate-200/50 border border-slate-100 hover:border-indigo-100 transition-colors">
+                    <h3 class="text-lg font-bold mb-3 flex items-center text-slate-900">
+                        <i class="fas fa-question-circle text-indigo-500 mr-3"></i>
+                        How do I access my email templates?
+                    </h3>
+                    <p class="text-slate-600 leading-relaxed pl-8 border-l-2 border-indigo-100 ml-2">You'll receive a
+                        secure email immediately after purchase containing a download link to your ZIP archive with all source code files (HTML, CSS, TSX, API routes).</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-lg shadow-slate-200/50 border border-slate-100 hover:border-indigo-100 transition-colors">
+                    <h3 class="text-lg font-bold mb-3 flex items-center text-slate-900">
+                        <i class="fas fa-license text-purple-500 mr-3"></i>
+                        What license is included?
+                    </h3>
+                    <p class="text-slate-600 leading-relaxed pl-8 border-l-2 border-purple-100 ml-2">Every purchase
+                        includes a Commercial License. You can use these templates for your own business or your
+                        clients' businesses. Re-selling the templates themselves is not permitted.</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-lg shadow-slate-200/50 border border-slate-100 hover:border-indigo-100 transition-colors">
+                    <h3 class="text-lg font-bold mb-3 flex items-center text-slate-900">
+                        <i class="fas fa-cubes text-teal-500 mr-3"></i>
+                        What tech stack are the templates built with?
+                    </h3>
+                    <p class="text-slate-600 leading-relaxed pl-8 border-l-2 border-teal-100 ml-2">Low tiers use HTML/CSS and email HTML. Mid tiers include Next.js, React, and Tailwind CSS with API routes. High tiers include full React component libraries with white-label licensing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-300 py-20 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-2">
+                    <a href="index.html"
+                        class="text-3xl font-bold text-white mb-6 block bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-purple-400 w-fit">DesignFlare</a>
+                    <h3 class="text-white font-bold mb-4 text-lg">Contact</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-center text-slate-400"><i
+                                class="fas fa-user-circle w-6 text-indigo-500"></i> Ayoub Esadik</li>
+                        <li class="flex items-center text-slate-400"><i class="fas fa-envelope w-6 text-indigo-500"></i>
+                            ayoubesadik40@gmail.com</li>
+                        <li class="flex items-center text-slate-400"><i class="fas fa-phone w-6 text-indigo-500"></i>
+                            +212 637 338 555</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-bold mb-6 text-lg">Quick Links</h3>
+                    <ul class="space-y-4">
+                        <li><a href="index.html#home" class="hover:text-indigo-400 transition-colors">Home</a></li>
+                        <li><a href="templates.html" class="hover:text-indigo-400 transition-colors">Templates</a></li>
+                        <li><a href="index.html#packages" class="hover:text-indigo-400 transition-colors">Packages</a>
+                        </li>
+                        <li><a href="index.html#features" class="hover:text-indigo-400 transition-colors">Features</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-bold mb-6 text-lg">Legal & Support</h3>
+                    <ul class="space-y-4 mb-6">
+                        <li><a href="terms.html" class="hover:text-indigo-400 transition-colors">Terms of Service</a>
+                        </li>
+                        <li><a href="privacy.html" class="hover:text-indigo-400 transition-colors">Privacy Policy</a>
+                        </li>
+                        <li><a href="refund.html" class="hover:text-indigo-400 transition-colors">Refund Policy</a></li>
+                        <li><a href="about.html" class="hover:text-indigo-400 transition-colors">About Us</a></li>
+                        <li><a href="dmca.html" class="hover:text-indigo-400 transition-colors">DMCA</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-sm text-slate-500">&copy; 2024 DesignFlare. All rights reserved.</p>
+                <div class="flex items-center gap-6 text-slate-500 text-sm">
+                    <span class="flex items-center gap-2"><i class="fas fa-lock"></i> Secure Checkout</span>
+                    <span class="flex items-center gap-2"><i class="fas fa-bolt"></i> Instant Delivery</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+
+    <script src="script.js?v=4"></script>
+</body>
+
+</html>
