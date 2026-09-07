@@ -1,0 +1,24 @@
+{
+  "sku": "DF-LIC-EP-1367",
+  "name": "Essential Pack",
+  "slug": "01-essential-pack",
+  "tier": "low",
+  "tierLabel": "Niche Template Bundle",
+  "price": {
+    "amount": 13.67,
+    "currency": "EUR",
+    "display": "€13.67"
+  },
+  "totalAssets": 56,
+  "targetAssets": 45,
+  "tagline": "Production niche bundles — full landing pages, email systems, and Figma handoff specs.",
+  "checkoutUrl": "/pack/essential-pack.html",
+  "licenseIdentifier": "DF-LIC-EP-1367",
+  "stack": [
+    "HTML5",
+    "CSS3",
+    "Email HTML",
+    "Figma Specs"
+  ],
+  "billingNote": "DesignFlare operates a dynamic global ledger. All base digital assets are denominated in our primary corporate currency node. Listed Euro (€) checkout rates are calculated in real-time utilizing localized payment processing rails to ensure zero conversion spreads at settlement. Your final invoice receipt will accurately reflect these precise values under your secure data license identifier."
+}

@@ -1,0 +1,148 @@
+{
+  "tier": "low",
+  "niches": [
+    {
+      "niche": "Agency",
+      "assetCount": 14,
+      "files": [
+        "templates/agency/html-css/agency-landing.html",
+        "templates/agency/html-css/agency-landing.css",
+        "templates/agency/components/agency-nav.html",
+        "templates/agency/components/agency-hero.html",
+        "templates/agency/components/agency-features.html",
+        "templates/agency/components/agency-testimonial.html",
+        "templates/agency/components/agency-cta.html",
+        "templates/agency/components/agency-footer.html",
+        "templates/agency/email/agency-newsletter.html",
+        "templates/agency/email/agency-email-welcome.html",
+        "templates/agency/email/agency-email-promo.html",
+        "templates/agency/email/agency-email-digest.html",
+        "templates/agency/figma/agency-wireframe.md",
+        "templates/agency/README.md"
+      ]
+    },
+    {
+      "niche": "Photography",
+      "assetCount": 14,
+      "files": [
+        "templates/photography/html-css/photography-landing.html",
+        "templates/photography/html-css/photography-landing.css",
+        "templates/photography/components/photography-nav.html",
+        "templates/photography/components/photography-hero.html",
+        "templates/photography/components/photography-features.html",
+        "templates/photography/components/photography-testimonial.html",
+        "templates/photography/components/photography-cta.html",
+        "templates/photography/components/photography-footer.html",
+        "templates/photography/email/photography-newsletter.html",
+        "templates/photography/email/photography-email-welcome.html",
+        "templates/photography/email/photography-email-promo.html",
+        "templates/photography/email/photography-email-digest.html",
+        "templates/photography/figma/photography-wireframe.md",
+        "templates/photography/README.md"
+      ]
+    },
+    {
+      "niche": "Music",
+      "assetCount": 14,
+      "files": [
+        "templates/music/html-css/music-landing.html",
+        "templates/music/html-css/music-landing.css",
+        "templates/music/components/music-nav.html",
+        "templates/music/components/music-hero.html",
+        "templates/music/components/music-features.html",
+        "templates/music/components/music-testimonial.html",
+        "templates/music/components/music-cta.html",
+        "templates/music/components/music-footer.html",
+        "templates/music/email/music-newsletter.html",
+        "templates/music/email/music-email-welcome.html",
+        "templates/music/email/music-email-promo.html",
+        "templates/music/email/music-email-digest.html",
+        "templates/music/figma/music-wireframe.md",
+        "templates/music/README.md"
+      ]
+    },
+    {
+      "niche": "Podcast",
+      "assetCount": 14,
+      "files": [
+        "templates/podcast/html-css/podcast-landing.html",
+        "templates/podcast/html-css/podcast-landing.css",
+        "templates/podcast/components/podcast-nav.html",
+        "templates/podcast/components/podcast-hero.html",
+        "templates/podcast/components/podcast-features.html",
+        "templates/podcast/components/podcast-testimonial.html",
+        "templates/podcast/components/podcast-cta.html",
+        "templates/podcast/components/podcast-footer.html",
+        "templates/podcast/email/podcast-newsletter.html",
+        "templates/podcast/email/podcast-email-welcome.html",
+        "templates/podcast/email/podcast-email-promo.html",
+        "templates/podcast/email/podcast-email-digest.html",
+        "templates/podcast/figma/podcast-wireframe.md",
+        "templates/podcast/README.md"
+      ]
+    },
+    {
+      "niche": "Streaming",
+      "assetCount": 14,
+      "files": [
+        "templates/streaming/html-css/streaming-landing.html",
+        "templates/streaming/html-css/streaming-landing.css",
+        "templates/streaming/components/streaming-nav.html",
+        "templates/streaming/components/streaming-hero.html",
+        "templates/streaming/components/streaming-features.html",
+        "templates/streaming/components/streaming-testimonial.html",
+        "templates/streaming/components/streaming-cta.html",
+        "templates/streaming/components/streaming-footer.html",
+        "templates/streaming/email/streaming-newsletter.html",
+        "templates/streaming/email/streaming-email-welcome.html",
+        "templates/streaming/email/streaming-email-promo.html",
+        "templates/streaming/email/streaming-email-digest.html",
+        "templates/streaming/figma/streaming-wireframe.md",
+        "templates/streaming/README.md"
+      ]
+    },
+    {
+      "niche": "Portfolio",
+      "assetCount": 14,
+      "files": [
+        "templates/portfolio/html-css/portfolio-landing.html",
+        "templates/portfolio/html-css/portfolio-landing.css",
+        "templates/portfolio/components/portfolio-nav.html",
+        "templates/portfolio/components/portfolio-hero.html",
+        "templates/portfolio/components/portfolio-features.html",
+        "templates/portfolio/components/portfolio-testimonial.html",
+        "templates/portfolio/components/portfolio-cta.html",
+        "templates/portfolio/components/portfolio-footer.html",
+        "templates/portfolio/email/portfolio-newsletter.html",
+        "templates/portfolio/email/portfolio-email-welcome.html",
+        "templates/portfolio/email/portfolio-email-promo.html",
+        "templates/portfolio/email/portfolio-email-digest.html",
+        "templates/portfolio/figma/portfolio-wireframe.md",
+        "templates/portfolio/README.md"
+      ]
+    },
+    {
+      "niche": "Design Studio",
+      "assetCount": 14,
+      "files": [
+        "templates/design-studio/html-css/design-studio-landing.html",
+        "templates/design-studio/html-css/design-studio-landing.css",
+        "templates/design-studio/components/design-studio-nav.html",
+        "templates/design-studio/components/design-studio-hero.html",
+        "templates/design-studio/components/design-studio-features.html",
+        "templates/design-studio/components/design-studio-testimonial.html",
+        "templates/design-studio/components/design-studio-cta.html",
+        "templates/design-studio/components/design-studio-footer.html",
+        "templates/design-studio/email/design-studio-newsletter.html",
+        "templates/design-studio/email/design-studio-email-welcome.html",
+        "templates/design-studio/email/design-studio-email-promo.html",
+        "templates/design-studio/email/design-studio-email-digest.html",
+        "templates/design-studio/figma/design-studio-wireframe.md",
+        "templates/design-studio/README.md"
+      ]
+    }
+  ],
+  "assetCount": 98,
+  "totalAssetsDelivered": 98,
+  "targetAssets": 75
+}

@@ -1,0 +1,154 @@
+@page {
+  size: A4;
+  margin: 18mm 18mm 22mm 18mm;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.55;
+  color: #1e293b;
+  background: #ffffff;
+}
+
+.cover-band {
+  height: 6mm;
+  background: linear-gradient(90deg, #4f46e5 0%, #7c3aed 100%);
+  margin: -18mm -18mm 0;
+  width: calc(100% + 36mm);
+}
+
+.header {
+  padding: 10mm 0 8mm;
+  border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 8mm;
+}
+
+.brand {
+  font-size: 20pt;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #4f46e5;
+  margin-bottom: 1.5mm;
+}
+
+.brand-sub {
+  font-size: 8pt;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+}
+
+.doc-title {
+  font-size: 18pt;
+  font-weight: 700;
+  color: #0f172a;
+  margin-top: 6mm;
+  letter-spacing: -0.02em;
+}
+
+.doc-meta {
+  margin-top: 3mm;
+  font-size: 9pt;
+  color: #64748b;
+}
+
+.doc-meta span {
+  display: inline-block;
+  margin-right: 8mm;
+}
+
+.content {
+  padding-bottom: 6mm;
+}
+
+.intro {
+  font-size: 10.5pt;
+  color: #334155;
+  margin-bottom: 7mm;
+  padding: 4mm 5mm;
+  background: #f8fafc;
+  border-left: 3px solid #6366f1;
+  border-radius: 0 4px 4px 0;
+}
+
+section {
+  margin-bottom: 6mm;
+  page-break-inside: avoid;
+}
+
+h2 {
+  font-size: 11pt;
+  font-weight: 700;
+  color: #312e81;
+  margin-bottom: 2mm;
+  padding-bottom: 1mm;
+  border-bottom: 1px solid #e0e7ff;
+  page-break-after: avoid;
+}
+
+h3 {
+  font-size: 10pt;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 2.5mm 0 1.5mm;
+}
+
+p {
+  margin-bottom: 2.5mm;
+  color: #334155;
+}
+
+ul, ol {
+  margin: 0 0 3mm 5mm;
+  color: #334155;
+}
+
+li {
+  margin-bottom: 1.5mm;
+}
+
+strong {
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.contact-block {
+  margin-top: 8mm;
+  padding: 4mm 5mm;
+  background: #f1f5f9;
+  border-radius: 4px;
+  font-size: 9.5pt;
+  page-break-inside: avoid;
+}
+
+.contact-block dt {
+  font-weight: 700;
+  color: #475569;
+  margin-top: 2mm;
+}
+
+.contact-block dt:first-child {
+  margin-top: 0;
+}
+
+.contact-block dd {
+  color: #334155;
+  margin-left: 0;
+}
+
+.doc-end {
+  margin-top: 10mm;
+  padding-top: 4mm;
+  border-top: 1px solid #e2e8f0;
+  font-size: 8.5pt;
+  color: #94a3b8;
+  text-align: center;
+}

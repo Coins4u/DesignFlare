@@ -3,7 +3,7 @@ import express from 'express';
 import nodemailer from 'nodemailer';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { buildCustomerInvoiceEmail, getPaymentLinkForTier } from './lib/tier-payment-links.mjs';
+import { buildCustomerOrderConfirmationEmail } from './lib/tier-payment-links.mjs';
 import {
   isValidPayTier,
   verifyPayToken,
@@ -122,7 +122,8 @@ app.post('/api/notify-admin', async (req, res) => {
           `Location: ${safeCountry}`,
           `Requested Tier: ${safeTierName}${safePrice ? ` (${safePrice})` : ''}`,
           '',
-          'Next Action: Whop invoice with payment link sent automatically to the customer.',
+          'Next Action: Reply to the customer with bank transfer details and payment instructions.',
+          'An automatic order confirmation was sent to the customer (bank details follow from you personally).',
         ];
 
     if (typeof pageUrl === 'string' && pageUrl.trim()) {
@@ -171,7 +172,7 @@ app.post('/api/notify-admin', async (req, res) => {
               </div>`
                   : `<div style="margin-top: 16px; padding: 14px 16px; background: rgba(99,102,241,.08); border: 1px solid rgba(99,102,241,.18); border-radius: 14px;">
                 <div style="font-weight: 800; margin-bottom: 4px;">Next Action</div>
-                <div style="color: #334155;">Whop invoice with payment link sent automatically to the customer.</div>
+                <div style="color: #334155;">Reply to the customer with your <strong>bank transfer details</strong>. An automatic order confirmation was already sent to their email.</div>
               </div>`
               }
               ${
@@ -207,33 +208,28 @@ app.post('/api/notify-admin', async (req, res) => {
     }
 
     if (!isContactForm) {
-      const paymentLink = getPaymentLinkForTier(safeTierName);
+      const confirmation = buildCustomerOrderConfirmationEmail({
+        fullName: fullName.trim(),
+        tierName: safeTierName,
+        price: safePrice,
+      });
 
-      if (paymentLink) {
-        const invoice = buildCustomerInvoiceEmail({
-          fullName: fullName.trim(),
-          tierName: safeTierName,
-          price: safePrice,
-          paymentLink,
+      try {
+        await transporter.sendMail({
+          from: `"${fromName}" <${orderFrom}>`,
+          to: email.trim(),
+          subject: confirmation.subject,
+          text: confirmation.text,
+          html: confirmation.html,
+          replyTo: adminEmail,
         });
-
-        try {
-          await transporter.sendMail({
-            from: `"${fromName}" <${orderFrom}>`,
-            to: email.trim(),
-            subject: invoice.subject,
-            text: invoice.text,
-            html: invoice.html,
-            replyTo: adminEmail,
-          });
-        } catch (err) {
-          console.error('[notify-admin] Customer invoice send failed:', err?.message || err);
-          return res.status(502).json({
-            ok: false,
-            error:
-              'Your request was received but we could not send your invoice email. Please contact contact@designflare.de.',
-          });
-        }
+      } catch (err) {
+        console.error('[notify-admin] Customer confirmation send failed:', err?.message || err);
+        return res.status(502).json({
+          ok: false,
+          error:
+            'Your request was received but we could not send your confirmation email. Please contact contact@designflare.de.',
+        });
       }
     }
 

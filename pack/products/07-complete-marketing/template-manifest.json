@@ -1,0 +1,205 @@
+{
+  "tier": "high",
+  "modules": [
+    {
+      "module": "Brand System",
+      "assetCount": 8,
+      "files": [
+        "templates/components/brand-system/brand-system.tsx",
+        "templates/components/brand-system/brand-system.types.ts",
+        "templates/components/brand-system/brand-system.hook.ts",
+        "templates/components/brand-system/brand-system.config.json",
+        "templates/components/brand-system/Header.tsx",
+        "templates/components/brand-system/Content.tsx",
+        "templates/components/brand-system/Actions.tsx",
+        "templates/components/brand-system/README.md"
+      ]
+    },
+    {
+      "module": "Product Pages",
+      "assetCount": 8,
+      "files": [
+        "templates/components/product-pages/product-pages.tsx",
+        "templates/components/product-pages/product-pages.types.ts",
+        "templates/components/product-pages/product-pages.hook.ts",
+        "templates/components/product-pages/product-pages.config.json",
+        "templates/components/product-pages/Header.tsx",
+        "templates/components/product-pages/Content.tsx",
+        "templates/components/product-pages/Actions.tsx",
+        "templates/components/product-pages/README.md"
+      ]
+    },
+    {
+      "module": "Sales Funnels",
+      "assetCount": 8,
+      "files": [
+        "templates/components/sales-funnels/sales-funnels.tsx",
+        "templates/components/sales-funnels/sales-funnels.types.ts",
+        "templates/components/sales-funnels/sales-funnels.hook.ts",
+        "templates/components/sales-funnels/sales-funnels.config.json",
+        "templates/components/sales-funnels/Header.tsx",
+        "templates/components/sales-funnels/Content.tsx",
+        "templates/components/sales-funnels/Actions.tsx",
+        "templates/components/sales-funnels/README.md"
+      ]
+    },
+    {
+      "module": "Retention Flows",
+      "assetCount": 8,
+      "files": [
+        "templates/components/retention-flows/retention-flows.tsx",
+        "templates/components/retention-flows/retention-flows.types.ts",
+        "templates/components/retention-flows/retention-flows.hook.ts",
+        "templates/components/retention-flows/retention-flows.config.json",
+        "templates/components/retention-flows/Header.tsx",
+        "templates/components/retention-flows/Content.tsx",
+        "templates/components/retention-flows/Actions.tsx",
+        "templates/components/retention-flows/README.md"
+      ]
+    },
+    {
+      "module": "Referral Engine",
+      "assetCount": 8,
+      "files": [
+        "templates/components/referral-engine/referral-engine.tsx",
+        "templates/components/referral-engine/referral-engine.types.ts",
+        "templates/components/referral-engine/referral-engine.hook.ts",
+        "templates/components/referral-engine/referral-engine.config.json",
+        "templates/components/referral-engine/Header.tsx",
+        "templates/components/referral-engine/Content.tsx",
+        "templates/components/referral-engine/Actions.tsx",
+        "templates/components/referral-engine/README.md"
+      ]
+    },
+    {
+      "module": "Seasonal Campaigns",
+      "assetCount": 8,
+      "files": [
+        "templates/components/seasonal-campaigns/seasonal-campaigns.tsx",
+        "templates/components/seasonal-campaigns/seasonal-campaigns.types.ts",
+        "templates/components/seasonal-campaigns/seasonal-campaigns.hook.ts",
+        "templates/components/seasonal-campaigns/seasonal-campaigns.config.json",
+        "templates/components/seasonal-campaigns/Header.tsx",
+        "templates/components/seasonal-campaigns/Content.tsx",
+        "templates/components/seasonal-campaigns/Actions.tsx",
+        "templates/components/seasonal-campaigns/README.md"
+      ]
+    },
+    {
+      "module": "Holiday Drops",
+      "assetCount": 8,
+      "files": [
+        "templates/components/holiday-drops/holiday-drops.tsx",
+        "templates/components/holiday-drops/holiday-drops.types.ts",
+        "templates/components/holiday-drops/holiday-drops.hook.ts",
+        "templates/components/holiday-drops/holiday-drops.config.json",
+        "templates/components/holiday-drops/Header.tsx",
+        "templates/components/holiday-drops/Content.tsx",
+        "templates/components/holiday-drops/Actions.tsx",
+        "templates/components/holiday-drops/README.md"
+      ]
+    },
+    {
+      "module": "Black Friday Kit",
+      "assetCount": 8,
+      "files": [
+        "templates/components/black-friday-kit/black-friday-kit.tsx",
+        "templates/components/black-friday-kit/black-friday-kit.types.ts",
+        "templates/components/black-friday-kit/black-friday-kit.hook.ts",
+        "templates/components/black-friday-kit/black-friday-kit.config.json",
+        "templates/components/black-friday-kit/Header.tsx",
+        "templates/components/black-friday-kit/Content.tsx",
+        "templates/components/black-friday-kit/Actions.tsx",
+        "templates/components/black-friday-kit/README.md"
+      ]
+    },
+    {
+      "module": "Influencer Hub",
+      "assetCount": 8,
+      "files": [
+        "templates/components/influencer-hub/influencer-hub.tsx",
+        "templates/components/influencer-hub/influencer-hub.types.ts",
+        "templates/components/influencer-hub/influencer-hub.hook.ts",
+        "templates/components/influencer-hub/influencer-hub.config.json",
+        "templates/components/influencer-hub/Header.tsx",
+        "templates/components/influencer-hub/Content.tsx",
+        "templates/components/influencer-hub/Actions.tsx",
+        "templates/components/influencer-hub/README.md"
+      ]
+    },
+    {
+      "module": "UGC Gallery",
+      "assetCount": 8,
+      "files": [
+        "templates/components/ugc-gallery/ugc-gallery.tsx",
+        "templates/components/ugc-gallery/ugc-gallery.types.ts",
+        "templates/components/ugc-gallery/ugc-gallery.hook.ts",
+        "templates/components/ugc-gallery/ugc-gallery.config.json",
+        "templates/components/ugc-gallery/Header.tsx",
+        "templates/components/ugc-gallery/Content.tsx",
+        "templates/components/ugc-gallery/Actions.tsx",
+        "templates/components/ugc-gallery/README.md"
+      ]
+    },
+    {
+      "module": "Paid Ads Landers",
+      "assetCount": 8,
+      "files": [
+        "templates/components/paid-ads-landers/paid-ads-landers.tsx",
+        "templates/components/paid-ads-landers/paid-ads-landers.types.ts",
+        "templates/components/paid-ads-landers/paid-ads-landers.hook.ts",
+        "templates/components/paid-ads-landers/paid-ads-landers.config.json",
+        "templates/components/paid-ads-landers/Header.tsx",
+        "templates/components/paid-ads-landers/Content.tsx",
+        "templates/components/paid-ads-landers/Actions.tsx",
+        "templates/components/paid-ads-landers/README.md"
+      ]
+    },
+    {
+      "module": "Case Studies",
+      "assetCount": 8,
+      "files": [
+        "templates/components/case-studies/case-studies.tsx",
+        "templates/components/case-studies/case-studies.types.ts",
+        "templates/components/case-studies/case-studies.hook.ts",
+        "templates/components/case-studies/case-studies.config.json",
+        "templates/components/case-studies/Header.tsx",
+        "templates/components/case-studies/Content.tsx",
+        "templates/components/case-studies/Actions.tsx",
+        "templates/components/case-studies/README.md"
+      ]
+    },
+    {
+      "module": "Press Kit",
+      "assetCount": 8,
+      "files": [
+        "templates/components/press-kit/press-kit.tsx",
+        "templates/components/press-kit/press-kit.types.ts",
+        "templates/components/press-kit/press-kit.hook.ts",
+        "templates/components/press-kit/press-kit.config.json",
+        "templates/components/press-kit/Header.tsx",
+        "templates/components/press-kit/Content.tsx",
+        "templates/components/press-kit/Actions.tsx",
+        "templates/components/press-kit/README.md"
+      ]
+    },
+    {
+      "module": "Analytics Dashboard",
+      "assetCount": 8,
+      "files": [
+        "templates/components/analytics-dashboard/analytics-dashboard.tsx",
+        "templates/components/analytics-dashboard/analytics-dashboard.types.ts",
+        "templates/components/analytics-dashboard/analytics-dashboard.hook.ts",
+        "templates/components/analytics-dashboard/analytics-dashboard.config.json",
+        "templates/components/analytics-dashboard/Header.tsx",
+        "templates/components/analytics-dashboard/Content.tsx",
+        "templates/components/analytics-dashboard/Actions.tsx",
+        "templates/components/analytics-dashboard/README.md"
+      ]
+    }
+  ],
+  "whiteLabel": true,
+  "assetCount": 119,
+  "totalAssetsDelivered": 160,
+  "targetAssets": 160
+}

@@ -1,0 +1,24 @@
+{
+  "sku": "DF-LIC-UC-6748",
+  "name": "Ultimate Collection",
+  "slug": "08-ultimate-collection",
+  "tier": "high",
+  "tierLabel": "Enterprise Agency Suite",
+  "price": {
+    "amount": 67.48,
+    "currency": "EUR",
+    "display": "€67.48"
+  },
+  "totalAssets": 200,
+  "targetAssets": 200,
+  "tagline": "Lifetime agency archive — all components, tokens, middleware, white-label rights.",
+  "checkoutUrl": "/pack/ultimate-collection.html",
+  "licenseIdentifier": "DF-LIC-UC-6748",
+  "stack": [
+    "React 18",
+    "Tailwind CSS",
+    "Design Tokens",
+    "White-Label License"
+  ],
+  "billingNote": "DesignFlare operates a dynamic global ledger. All base digital assets are denominated in our primary corporate currency node. Listed Euro (€) checkout rates are calculated in real-time utilizing localized payment processing rails to ensure zero conversion spreads at settlement. Your final invoice receipt will accurately reflect these precise values under your secure data license identifier."
+}

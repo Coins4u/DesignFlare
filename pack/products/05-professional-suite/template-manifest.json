@@ -1,0 +1,227 @@
+{
+  "tier": "mid",
+  "frameworks": [
+    {
+      "framework": "Corporate B2B",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/corporate-b2b/app/layout.tsx",
+        "templates/corporate-b2b/app/page.tsx",
+        "templates/corporate-b2b/app/globals.css",
+        "templates/corporate-b2b/app/api/corporate-b2b/route.ts",
+        "templates/corporate-b2b/components/*.tsx",
+        "templates/corporate-b2b/lib/validators.ts",
+        "templates/corporate-b2b/lib/rate-limit.ts",
+        "templates/corporate-b2b/tailwind.config.ts",
+        "templates/corporate-b2b/package.json"
+      ]
+    },
+    {
+      "framework": "Healthcare Portal",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/healthcare-portal/app/layout.tsx",
+        "templates/healthcare-portal/app/page.tsx",
+        "templates/healthcare-portal/app/globals.css",
+        "templates/healthcare-portal/app/api/healthcare-portal/route.ts",
+        "templates/healthcare-portal/components/*.tsx",
+        "templates/healthcare-portal/lib/validators.ts",
+        "templates/healthcare-portal/lib/rate-limit.ts",
+        "templates/healthcare-portal/tailwind.config.ts",
+        "templates/healthcare-portal/package.json"
+      ]
+    },
+    {
+      "framework": "Insurance Quote",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/insurance-quote/app/layout.tsx",
+        "templates/insurance-quote/app/page.tsx",
+        "templates/insurance-quote/app/globals.css",
+        "templates/insurance-quote/app/api/insurance-quote/route.ts",
+        "templates/insurance-quote/components/*.tsx",
+        "templates/insurance-quote/lib/validators.ts",
+        "templates/insurance-quote/lib/rate-limit.ts",
+        "templates/insurance-quote/tailwind.config.ts",
+        "templates/insurance-quote/package.json"
+      ]
+    },
+    {
+      "framework": "Logistics Tracker",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/logistics-tracker/app/layout.tsx",
+        "templates/logistics-tracker/app/page.tsx",
+        "templates/logistics-tracker/app/globals.css",
+        "templates/logistics-tracker/app/api/logistics-tracker/route.ts",
+        "templates/logistics-tracker/components/*.tsx",
+        "templates/logistics-tracker/lib/validators.ts",
+        "templates/logistics-tracker/lib/rate-limit.ts",
+        "templates/logistics-tracker/tailwind.config.ts",
+        "templates/logistics-tracker/package.json"
+      ]
+    },
+    {
+      "framework": "Manufacturing",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/manufacturing/app/layout.tsx",
+        "templates/manufacturing/app/page.tsx",
+        "templates/manufacturing/app/globals.css",
+        "templates/manufacturing/app/api/manufacturing/route.ts",
+        "templates/manufacturing/components/*.tsx",
+        "templates/manufacturing/lib/validators.ts",
+        "templates/manufacturing/lib/rate-limit.ts",
+        "templates/manufacturing/tailwind.config.ts",
+        "templates/manufacturing/package.json"
+      ]
+    },
+    {
+      "framework": "Retail POS",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/retail-pos/app/layout.tsx",
+        "templates/retail-pos/app/page.tsx",
+        "templates/retail-pos/app/globals.css",
+        "templates/retail-pos/app/api/retail-pos/route.ts",
+        "templates/retail-pos/components/*.tsx",
+        "templates/retail-pos/lib/validators.ts",
+        "templates/retail-pos/lib/rate-limit.ts",
+        "templates/retail-pos/tailwind.config.ts",
+        "templates/retail-pos/package.json"
+      ]
+    },
+    {
+      "framework": "Hospitality Booking",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/hospitality-booking/app/layout.tsx",
+        "templates/hospitality-booking/app/page.tsx",
+        "templates/hospitality-booking/app/globals.css",
+        "templates/hospitality-booking/app/api/hospitality-booking/route.ts",
+        "templates/hospitality-booking/components/*.tsx",
+        "templates/hospitality-booking/lib/validators.ts",
+        "templates/hospitality-booking/lib/rate-limit.ts",
+        "templates/hospitality-booking/tailwind.config.ts",
+        "templates/hospitality-booking/package.json"
+      ]
+    },
+    {
+      "framework": "Automotive Dealer",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/automotive-dealer/app/layout.tsx",
+        "templates/automotive-dealer/app/page.tsx",
+        "templates/automotive-dealer/app/globals.css",
+        "templates/automotive-dealer/app/api/automotive-dealer/route.ts",
+        "templates/automotive-dealer/components/*.tsx",
+        "templates/automotive-dealer/lib/validators.ts",
+        "templates/automotive-dealer/lib/rate-limit.ts",
+        "templates/automotive-dealer/tailwind.config.ts",
+        "templates/automotive-dealer/package.json"
+      ]
+    },
+    {
+      "framework": "Tech Startup",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/tech-startup/app/layout.tsx",
+        "templates/tech-startup/app/page.tsx",
+        "templates/tech-startup/app/globals.css",
+        "templates/tech-startup/app/api/tech-startup/route.ts",
+        "templates/tech-startup/components/*.tsx",
+        "templates/tech-startup/lib/validators.ts",
+        "templates/tech-startup/lib/rate-limit.ts",
+        "templates/tech-startup/tailwind.config.ts",
+        "templates/tech-startup/package.json"
+      ]
+    },
+    {
+      "framework": "Enterprise CRM",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/enterprise-crm/app/layout.tsx",
+        "templates/enterprise-crm/app/page.tsx",
+        "templates/enterprise-crm/app/globals.css",
+        "templates/enterprise-crm/app/api/enterprise-crm/route.ts",
+        "templates/enterprise-crm/components/*.tsx",
+        "templates/enterprise-crm/lib/validators.ts",
+        "templates/enterprise-crm/lib/rate-limit.ts",
+        "templates/enterprise-crm/tailwind.config.ts",
+        "templates/enterprise-crm/package.json"
+      ]
+    }
+  ],
+  "totalAssetsDelivered": 170,
+  "targetAssets": 110
+}

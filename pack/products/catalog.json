@@ -1,0 +1,109 @@
+{
+  "products": [
+    {
+      "sku": "DF-LIC-EP-1367",
+      "name": "Essential Pack",
+      "slug": "01-essential-pack",
+      "tier": "Niche Template Bundle",
+      "price": {
+        "amount": 13.67,
+        "currency": "EUR",
+        "display": "€13.67"
+      },
+      "totalAssets": 56,
+      "folder": "products/01-essential-pack"
+    },
+    {
+      "sku": "DF-LIC-SB-2312",
+      "name": "Starter Bundle",
+      "slug": "02-starter-bundle",
+      "tier": "Niche Template Bundle",
+      "price": {
+        "amount": 23.12,
+        "currency": "EUR",
+        "display": "€23.12"
+      },
+      "totalAssets": 84,
+      "folder": "products/02-starter-bundle"
+    },
+    {
+      "sku": "DF-LIC-CK-2549",
+      "name": "Creative Kit",
+      "slug": "03-creative-kit",
+      "tier": "Niche Template Bundle",
+      "price": {
+        "amount": 25.49,
+        "currency": "EUR",
+        "display": "€25.49"
+      },
+      "totalAssets": 98,
+      "folder": "products/03-creative-kit"
+    },
+    {
+      "sku": "DF-LIC-GP-3553",
+      "name": "Growth Pro",
+      "slug": "04-growth-pro",
+      "tier": "Full-Stack Developer Kit",
+      "price": {
+        "amount": 35.53,
+        "currency": "EUR",
+        "display": "€35.53"
+      },
+      "totalAssets": 136,
+      "folder": "products/04-growth-pro"
+    },
+    {
+      "sku": "DF-LIC-PS-3778",
+      "name": "Professional Suite",
+      "slug": "05-professional-suite",
+      "tier": "Full-Stack Developer Kit",
+      "price": {
+        "amount": 37.78,
+        "currency": "EUR",
+        "display": "€37.78"
+      },
+      "totalAssets": 170,
+      "folder": "products/05-professional-suite"
+    },
+    {
+      "sku": "DF-LIC-BE-4579",
+      "name": "Business Elite",
+      "slug": "06-business-elite",
+      "tier": "Full-Stack Developer Kit",
+      "price": {
+        "amount": 45.79,
+        "currency": "EUR",
+        "display": "€45.79"
+      },
+      "totalAssets": 204,
+      "folder": "products/06-business-elite"
+    },
+    {
+      "sku": "DF-LIC-CM-4956",
+      "name": "Complete Marketing",
+      "slug": "07-complete-marketing",
+      "tier": "Enterprise Agency Suite",
+      "price": {
+        "amount": 49.56,
+        "currency": "EUR",
+        "display": "€49.56"
+      },
+      "totalAssets": 160,
+      "folder": "products/07-complete-marketing"
+    },
+    {
+      "sku": "DF-LIC-UC-6748",
+      "name": "Ultimate Collection",
+      "slug": "08-ultimate-collection",
+      "tier": "Enterprise Agency Suite",
+      "price": {
+        "amount": 67.48,
+        "currency": "EUR",
+        "display": "€67.48"
+      },
+      "totalAssets": 200,
+      "folder": "products/08-ultimate-collection"
+    }
+  ],
+  "generatedAt": "2026-06-05T22:46:53.761Z"
+}

@@ -1,0 +1,303 @@
+{
+  "tier": "high",
+  "modules": [
+    {
+      "module": "All Low-Tier Bundles",
+      "assetCount": 8,
+      "files": [
+        "templates/components/all-low-tier-bundles/all-low-tier-bundles.tsx",
+        "templates/components/all-low-tier-bundles/all-low-tier-bundles.types.ts",
+        "templates/components/all-low-tier-bundles/all-low-tier-bundles.hook.ts",
+        "templates/components/all-low-tier-bundles/all-low-tier-bundles.config.json",
+        "templates/components/all-low-tier-bundles/Header.tsx",
+        "templates/components/all-low-tier-bundles/Content.tsx",
+        "templates/components/all-low-tier-bundles/Actions.tsx",
+        "templates/components/all-low-tier-bundles/README.md"
+      ]
+    },
+    {
+      "module": "All Mid-Tier Kits",
+      "assetCount": 8,
+      "files": [
+        "templates/components/all-mid-tier-kits/all-mid-tier-kits.tsx",
+        "templates/components/all-mid-tier-kits/all-mid-tier-kits.types.ts",
+        "templates/components/all-mid-tier-kits/all-mid-tier-kits.hook.ts",
+        "templates/components/all-mid-tier-kits/all-mid-tier-kits.config.json",
+        "templates/components/all-mid-tier-kits/Header.tsx",
+        "templates/components/all-mid-tier-kits/Content.tsx",
+        "templates/components/all-mid-tier-kits/Actions.tsx",
+        "templates/components/all-mid-tier-kits/README.md"
+      ]
+    },
+    {
+      "module": "All High-Tier Modules",
+      "assetCount": 8,
+      "files": [
+        "templates/components/all-high-tier-modules/all-high-tier-modules.tsx",
+        "templates/components/all-high-tier-modules/all-high-tier-modules.types.ts",
+        "templates/components/all-high-tier-modules/all-high-tier-modules.hook.ts",
+        "templates/components/all-high-tier-modules/all-high-tier-modules.config.json",
+        "templates/components/all-high-tier-modules/Header.tsx",
+        "templates/components/all-high-tier-modules/Content.tsx",
+        "templates/components/all-high-tier-modules/Actions.tsx",
+        "templates/components/all-high-tier-modules/README.md"
+      ]
+    },
+    {
+      "module": "Future Component Drops",
+      "assetCount": 8,
+      "files": [
+        "templates/components/future-component-drops/future-component-drops.tsx",
+        "templates/components/future-component-drops/future-component-drops.types.ts",
+        "templates/components/future-component-drops/future-component-drops.hook.ts",
+        "templates/components/future-component-drops/future-component-drops.config.json",
+        "templates/components/future-component-drops/Header.tsx",
+        "templates/components/future-component-drops/Content.tsx",
+        "templates/components/future-component-drops/Actions.tsx",
+        "templates/components/future-component-drops/README.md"
+      ]
+    },
+    {
+      "module": "White-Label License",
+      "assetCount": 8,
+      "files": [
+        "templates/components/white-label-license/white-label-license.tsx",
+        "templates/components/white-label-license/white-label-license.types.ts",
+        "templates/components/white-label-license/white-label-license.hook.ts",
+        "templates/components/white-label-license/white-label-license.config.json",
+        "templates/components/white-label-license/Header.tsx",
+        "templates/components/white-label-license/Content.tsx",
+        "templates/components/white-label-license/Actions.tsx",
+        "templates/components/white-label-license/README.md"
+      ]
+    },
+    {
+      "module": "Agency Reseller Kit",
+      "assetCount": 8,
+      "files": [
+        "templates/components/agency-reseller-kit/agency-reseller-kit.tsx",
+        "templates/components/agency-reseller-kit/agency-reseller-kit.types.ts",
+        "templates/components/agency-reseller-kit/agency-reseller-kit.hook.ts",
+        "templates/components/agency-reseller-kit/agency-reseller-kit.config.json",
+        "templates/components/agency-reseller-kit/Header.tsx",
+        "templates/components/agency-reseller-kit/Content.tsx",
+        "templates/components/agency-reseller-kit/Actions.tsx",
+        "templates/components/agency-reseller-kit/README.md"
+      ]
+    },
+    {
+      "module": "Client Handoff Docs",
+      "assetCount": 8,
+      "files": [
+        "templates/components/client-handoff-docs/client-handoff-docs.tsx",
+        "templates/components/client-handoff-docs/client-handoff-docs.types.ts",
+        "templates/components/client-handoff-docs/client-handoff-docs.hook.ts",
+        "templates/components/client-handoff-docs/client-handoff-docs.config.json",
+        "templates/components/client-handoff-docs/Header.tsx",
+        "templates/components/client-handoff-docs/Content.tsx",
+        "templates/components/client-handoff-docs/Actions.tsx",
+        "templates/components/client-handoff-docs/README.md"
+      ]
+    },
+    {
+      "module": "Design Token System",
+      "assetCount": 8,
+      "files": [
+        "templates/components/design-token-system/design-token-system.tsx",
+        "templates/components/design-token-system/design-token-system.types.ts",
+        "templates/components/design-token-system/design-token-system.hook.ts",
+        "templates/components/design-token-system/design-token-system.config.json",
+        "templates/components/design-token-system/Header.tsx",
+        "templates/components/design-token-system/Content.tsx",
+        "templates/components/design-token-system/Actions.tsx",
+        "templates/components/design-token-system/README.md"
+      ]
+    },
+    {
+      "module": "Component Storybook",
+      "assetCount": 8,
+      "files": [
+        "templates/components/component-storybook/component-storybook.tsx",
+        "templates/components/component-storybook/component-storybook.types.ts",
+        "templates/components/component-storybook/component-storybook.hook.ts",
+        "templates/components/component-storybook/component-storybook.config.json",
+        "templates/components/component-storybook/Header.tsx",
+        "templates/components/component-storybook/Content.tsx",
+        "templates/components/component-storybook/Actions.tsx",
+        "templates/components/component-storybook/README.md"
+      ]
+    },
+    {
+      "module": "API Middleware Library",
+      "assetCount": 8,
+      "files": [
+        "templates/components/api-middleware-library/api-middleware-library.tsx",
+        "templates/components/api-middleware-library/api-middleware-library.types.ts",
+        "templates/components/api-middleware-library/api-middleware-library.hook.ts",
+        "templates/components/api-middleware-library/api-middleware-library.config.json",
+        "templates/components/api-middleware-library/Header.tsx",
+        "templates/components/api-middleware-library/Content.tsx",
+        "templates/components/api-middleware-library/Actions.tsx",
+        "templates/components/api-middleware-library/README.md"
+      ]
+    },
+    {
+      "module": "Email Template Engine",
+      "assetCount": 8,
+      "files": [
+        "templates/components/email-template-engine/email-template-engine.tsx",
+        "templates/components/email-template-engine/email-template-engine.types.ts",
+        "templates/components/email-template-engine/email-template-engine.hook.ts",
+        "templates/components/email-template-engine/email-template-engine.config.json",
+        "templates/components/email-template-engine/Header.tsx",
+        "templates/components/email-template-engine/Content.tsx",
+        "templates/components/email-template-engine/Actions.tsx",
+        "templates/components/email-template-engine/README.md"
+      ]
+    },
+    {
+      "module": "Landing Page Factory",
+      "assetCount": 8,
+      "files": [
+        "templates/components/landing-page-factory/landing-page-factory.tsx",
+        "templates/components/landing-page-factory/landing-page-factory.types.ts",
+        "templates/components/landing-page-factory/landing-page-factory.hook.ts",
+        "templates/components/landing-page-factory/landing-page-factory.config.json",
+        "templates/components/landing-page-factory/Header.tsx",
+        "templates/components/landing-page-factory/Content.tsx",
+        "templates/components/landing-page-factory/Actions.tsx",
+        "templates/components/landing-page-factory/README.md"
+      ]
+    },
+    {
+      "module": "Dashboard Shells",
+      "assetCount": 8,
+      "files": [
+        "templates/components/dashboard-shells/dashboard-shells.tsx",
+        "templates/components/dashboard-shells/dashboard-shells.types.ts",
+        "templates/components/dashboard-shells/dashboard-shells.hook.ts",
+        "templates/components/dashboard-shells/dashboard-shells.config.json",
+        "templates/components/dashboard-shells/Header.tsx",
+        "templates/components/dashboard-shells/Content.tsx",
+        "templates/components/dashboard-shells/Actions.tsx",
+        "templates/components/dashboard-shells/README.md"
+      ]
+    },
+    {
+      "module": "Auth Flows",
+      "assetCount": 8,
+      "files": [
+        "templates/components/auth-flows/auth-flows.tsx",
+        "templates/components/auth-flows/auth-flows.types.ts",
+        "templates/components/auth-flows/auth-flows.hook.ts",
+        "templates/components/auth-flows/auth-flows.config.json",
+        "templates/components/auth-flows/Header.tsx",
+        "templates/components/auth-flows/Content.tsx",
+        "templates/components/auth-flows/Actions.tsx",
+        "templates/components/auth-flows/README.md"
+      ]
+    },
+    {
+      "module": "Payment Integrations",
+      "assetCount": 8,
+      "files": [
+        "templates/components/payment-integrations/payment-integrations.tsx",
+        "templates/components/payment-integrations/payment-integrations.types.ts",
+        "templates/components/payment-integrations/payment-integrations.hook.ts",
+        "templates/components/payment-integrations/payment-integrations.config.json",
+        "templates/components/payment-integrations/Header.tsx",
+        "templates/components/payment-integrations/Content.tsx",
+        "templates/components/payment-integrations/Actions.tsx",
+        "templates/components/payment-integrations/README.md"
+      ]
+    },
+    {
+      "module": "SEO Component Pack",
+      "assetCount": 8,
+      "files": [
+        "templates/components/seo-component-pack/seo-component-pack.tsx",
+        "templates/components/seo-component-pack/seo-component-pack.types.ts",
+        "templates/components/seo-component-pack/seo-component-pack.hook.ts",
+        "templates/components/seo-component-pack/seo-component-pack.config.json",
+        "templates/components/seo-component-pack/Header.tsx",
+        "templates/components/seo-component-pack/Content.tsx",
+        "templates/components/seo-component-pack/Actions.tsx",
+        "templates/components/seo-component-pack/README.md"
+      ]
+    },
+    {
+      "module": "A/B Test Blocks",
+      "assetCount": 8,
+      "files": [
+        "templates/components/a-b-test-blocks/a-b-test-blocks.tsx",
+        "templates/components/a-b-test-blocks/a-b-test-blocks.types.ts",
+        "templates/components/a-b-test-blocks/a-b-test-blocks.hook.ts",
+        "templates/components/a-b-test-blocks/a-b-test-blocks.config.json",
+        "templates/components/a-b-test-blocks/Header.tsx",
+        "templates/components/a-b-test-blocks/Content.tsx",
+        "templates/components/a-b-test-blocks/Actions.tsx",
+        "templates/components/a-b-test-blocks/README.md"
+      ]
+    },
+    {
+      "module": "Accessibility Kit",
+      "assetCount": 8,
+      "files": [
+        "templates/components/accessibility-kit/accessibility-kit.tsx",
+        "templates/components/accessibility-kit/accessibility-kit.types.ts",
+        "templates/components/accessibility-kit/accessibility-kit.hook.ts",
+        "templates/components/accessibility-kit/accessibility-kit.config.json",
+        "templates/components/accessibility-kit/Header.tsx",
+        "templates/components/accessibility-kit/Content.tsx",
+        "templates/components/accessibility-kit/Actions.tsx",
+        "templates/components/accessibility-kit/README.md"
+      ]
+    },
+    {
+      "module": "Dark Mode System",
+      "assetCount": 8,
+      "files": [
+        "templates/components/dark-mode-system/dark-mode-system.tsx",
+        "templates/components/dark-mode-system/dark-mode-system.types.ts",
+        "templates/components/dark-mode-system/dark-mode-system.hook.ts",
+        "templates/components/dark-mode-system/dark-mode-system.config.json",
+        "templates/components/dark-mode-system/Header.tsx",
+        "templates/components/dark-mode-system/Content.tsx",
+        "templates/components/dark-mode-system/Actions.tsx",
+        "templates/components/dark-mode-system/README.md"
+      ]
+    },
+    {
+      "module": "i18n Scaffold",
+      "assetCount": 8,
+      "files": [
+        "templates/components/i18n-scaffold/i18n-scaffold.tsx",
+        "templates/components/i18n-scaffold/i18n-scaffold.types.ts",
+        "templates/components/i18n-scaffold/i18n-scaffold.hook.ts",
+        "templates/components/i18n-scaffold/i18n-scaffold.config.json",
+        "templates/components/i18n-scaffold/Header.tsx",
+        "templates/components/i18n-scaffold/Content.tsx",
+        "templates/components/i18n-scaffold/Actions.tsx",
+        "templates/components/i18n-scaffold/README.md"
+      ]
+    },
+    {
+      "module": "Enterprise SLA Docs",
+      "assetCount": 8,
+      "files": [
+        "templates/components/enterprise-sla-docs/enterprise-sla-docs.tsx",
+        "templates/components/enterprise-sla-docs/enterprise-sla-docs.types.ts",
+        "templates/components/enterprise-sla-docs/enterprise-sla-docs.hook.ts",
+        "templates/components/enterprise-sla-docs/enterprise-sla-docs.config.json",
+        "templates/components/enterprise-sla-docs/Header.tsx",
+        "templates/components/enterprise-sla-docs/Content.tsx",
+        "templates/components/enterprise-sla-docs/Actions.tsx",
+        "templates/components/enterprise-sla-docs/README.md"
+      ]
+    }
+  ],
+  "whiteLabel": true,
+  "assetCount": 176,
+  "totalAssetsDelivered": 200,
+  "targetAssets": 200
+}

@@ -1,0 +1,88 @@
+{
+  "tier": "low",
+  "niches": [
+    {
+      "niche": "Fashion",
+      "assetCount": 14,
+      "files": [
+        "templates/fashion/html-css/fashion-landing.html",
+        "templates/fashion/html-css/fashion-landing.css",
+        "templates/fashion/components/fashion-nav.html",
+        "templates/fashion/components/fashion-hero.html",
+        "templates/fashion/components/fashion-features.html",
+        "templates/fashion/components/fashion-testimonial.html",
+        "templates/fashion/components/fashion-cta.html",
+        "templates/fashion/components/fashion-footer.html",
+        "templates/fashion/email/fashion-newsletter.html",
+        "templates/fashion/email/fashion-email-welcome.html",
+        "templates/fashion/email/fashion-email-promo.html",
+        "templates/fashion/email/fashion-email-digest.html",
+        "templates/fashion/figma/fashion-wireframe.md",
+        "templates/fashion/README.md"
+      ]
+    },
+    {
+      "niche": "Fitness",
+      "assetCount": 14,
+      "files": [
+        "templates/fitness/html-css/fitness-landing.html",
+        "templates/fitness/html-css/fitness-landing.css",
+        "templates/fitness/components/fitness-nav.html",
+        "templates/fitness/components/fitness-hero.html",
+        "templates/fitness/components/fitness-features.html",
+        "templates/fitness/components/fitness-testimonial.html",
+        "templates/fitness/components/fitness-cta.html",
+        "templates/fitness/components/fitness-footer.html",
+        "templates/fitness/email/fitness-newsletter.html",
+        "templates/fitness/email/fitness-email-welcome.html",
+        "templates/fitness/email/fitness-email-promo.html",
+        "templates/fitness/email/fitness-email-digest.html",
+        "templates/fitness/figma/fitness-wireframe.md",
+        "templates/fitness/README.md"
+      ]
+    },
+    {
+      "niche": "Beauty",
+      "assetCount": 14,
+      "files": [
+        "templates/beauty/html-css/beauty-landing.html",
+        "templates/beauty/html-css/beauty-landing.css",
+        "templates/beauty/components/beauty-nav.html",
+        "templates/beauty/components/beauty-hero.html",
+        "templates/beauty/components/beauty-features.html",
+        "templates/beauty/components/beauty-testimonial.html",
+        "templates/beauty/components/beauty-cta.html",
+        "templates/beauty/components/beauty-footer.html",
+        "templates/beauty/email/beauty-newsletter.html",
+        "templates/beauty/email/beauty-email-welcome.html",
+        "templates/beauty/email/beauty-email-promo.html",
+        "templates/beauty/email/beauty-email-digest.html",
+        "templates/beauty/figma/beauty-wireframe.md",
+        "templates/beauty/README.md"
+      ]
+    },
+    {
+      "niche": "Lifestyle",
+      "assetCount": 14,
+      "files": [
+        "templates/lifestyle/html-css/lifestyle-landing.html",
+        "templates/lifestyle/html-css/lifestyle-landing.css",
+        "templates/lifestyle/components/lifestyle-nav.html",
+        "templates/lifestyle/components/lifestyle-hero.html",
+        "templates/lifestyle/components/lifestyle-features.html",
+        "templates/lifestyle/components/lifestyle-testimonial.html",
+        "templates/lifestyle/components/lifestyle-cta.html",
+        "templates/lifestyle/components/lifestyle-footer.html",
+        "templates/lifestyle/email/lifestyle-newsletter.html",
+        "templates/lifestyle/email/lifestyle-email-welcome.html",
+        "templates/lifestyle/email/lifestyle-email-promo.html",
+        "templates/lifestyle/email/lifestyle-email-digest.html",
+        "templates/lifestyle/figma/lifestyle-wireframe.md",
+        "templates/lifestyle/README.md"
+      ]
+    }
+  ],
+  "assetCount": 56,
+  "totalAssetsDelivered": 56,
+  "targetAssets": 45
+}

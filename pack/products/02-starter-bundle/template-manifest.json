@@ -1,0 +1,128 @@
+{
+  "tier": "low",
+  "niches": [
+    {
+      "niche": "Business",
+      "assetCount": 14,
+      "files": [
+        "templates/business/html-css/business-landing.html",
+        "templates/business/html-css/business-landing.css",
+        "templates/business/components/business-nav.html",
+        "templates/business/components/business-hero.html",
+        "templates/business/components/business-features.html",
+        "templates/business/components/business-testimonial.html",
+        "templates/business/components/business-cta.html",
+        "templates/business/components/business-footer.html",
+        "templates/business/email/business-newsletter.html",
+        "templates/business/email/business-email-welcome.html",
+        "templates/business/email/business-email-promo.html",
+        "templates/business/email/business-email-digest.html",
+        "templates/business/figma/business-wireframe.md",
+        "templates/business/README.md"
+      ]
+    },
+    {
+      "niche": "Fitness",
+      "assetCount": 14,
+      "files": [
+        "templates/fitness/html-css/fitness-landing.html",
+        "templates/fitness/html-css/fitness-landing.css",
+        "templates/fitness/components/fitness-nav.html",
+        "templates/fitness/components/fitness-hero.html",
+        "templates/fitness/components/fitness-features.html",
+        "templates/fitness/components/fitness-testimonial.html",
+        "templates/fitness/components/fitness-cta.html",
+        "templates/fitness/components/fitness-footer.html",
+        "templates/fitness/email/fitness-newsletter.html",
+        "templates/fitness/email/fitness-email-welcome.html",
+        "templates/fitness/email/fitness-email-promo.html",
+        "templates/fitness/email/fitness-email-digest.html",
+        "templates/fitness/figma/fitness-wireframe.md",
+        "templates/fitness/README.md"
+      ]
+    },
+    {
+      "niche": "Food",
+      "assetCount": 14,
+      "files": [
+        "templates/food/html-css/food-landing.html",
+        "templates/food/html-css/food-landing.css",
+        "templates/food/components/food-nav.html",
+        "templates/food/components/food-hero.html",
+        "templates/food/components/food-features.html",
+        "templates/food/components/food-testimonial.html",
+        "templates/food/components/food-cta.html",
+        "templates/food/components/food-footer.html",
+        "templates/food/email/food-newsletter.html",
+        "templates/food/email/food-email-welcome.html",
+        "templates/food/email/food-email-promo.html",
+        "templates/food/email/food-email-digest.html",
+        "templates/food/figma/food-wireframe.md",
+        "templates/food/README.md"
+      ]
+    },
+    {
+      "niche": "Real Estate",
+      "assetCount": 14,
+      "files": [
+        "templates/real-estate/html-css/real-estate-landing.html",
+        "templates/real-estate/html-css/real-estate-landing.css",
+        "templates/real-estate/components/real-estate-nav.html",
+        "templates/real-estate/components/real-estate-hero.html",
+        "templates/real-estate/components/real-estate-features.html",
+        "templates/real-estate/components/real-estate-testimonial.html",
+        "templates/real-estate/components/real-estate-cta.html",
+        "templates/real-estate/components/real-estate-footer.html",
+        "templates/real-estate/email/real-estate-newsletter.html",
+        "templates/real-estate/email/real-estate-email-welcome.html",
+        "templates/real-estate/email/real-estate-email-promo.html",
+        "templates/real-estate/email/real-estate-email-digest.html",
+        "templates/real-estate/figma/real-estate-wireframe.md",
+        "templates/real-estate/README.md"
+      ]
+    },
+    {
+      "niche": "Coaching",
+      "assetCount": 14,
+      "files": [
+        "templates/coaching/html-css/coaching-landing.html",
+        "templates/coaching/html-css/coaching-landing.css",
+        "templates/coaching/components/coaching-nav.html",
+        "templates/coaching/components/coaching-hero.html",
+        "templates/coaching/components/coaching-features.html",
+        "templates/coaching/components/coaching-testimonial.html",
+        "templates/coaching/components/coaching-cta.html",
+        "templates/coaching/components/coaching-footer.html",
+        "templates/coaching/email/coaching-newsletter.html",
+        "templates/coaching/email/coaching-email-welcome.html",
+        "templates/coaching/email/coaching-email-promo.html",
+        "templates/coaching/email/coaching-email-digest.html",
+        "templates/coaching/figma/coaching-wireframe.md",
+        "templates/coaching/README.md"
+      ]
+    },
+    {
+      "niche": "Events",
+      "assetCount": 14,
+      "files": [
+        "templates/events/html-css/events-landing.html",
+        "templates/events/html-css/events-landing.css",
+        "templates/events/components/events-nav.html",
+        "templates/events/components/events-hero.html",
+        "templates/events/components/events-features.html",
+        "templates/events/components/events-testimonial.html",
+        "templates/events/components/events-cta.html",
+        "templates/events/components/events-footer.html",
+        "templates/events/email/events-newsletter.html",
+        "templates/events/email/events-email-welcome.html",
+        "templates/events/email/events-email-promo.html",
+        "templates/events/email/events-email-digest.html",
+        "templates/events/figma/events-wireframe.md",
+        "templates/events/README.md"
+      ]
+    }
+  ],
+  "assetCount": 84,
+  "totalAssetsDelivered": 84,
+  "targetAssets": 65
+}

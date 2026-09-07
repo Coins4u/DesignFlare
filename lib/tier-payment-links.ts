@@ -1,21 +1,26 @@
 /**
- * Direct Whop checkout links — sent to customers who order via DesignFlare
- * (pack checkout forms → invoice email). These are normal, public Whop URLs.
+ * Package tier labels used on checkout forms.
+ * Payment is by bank transfer — credentials are emailed personally after each order.
  */
-export const TIER_PAYMENT_LINKS: Record<string, string> = {
-  'Essential Pack': 'https://whop.com/checkout/plan_O4eX3wTV2l037',
-  'Starter Bundle': 'https://whop.com/checkout/plan_zQiBMdH2kL2WT',
-  'Creative Kit': 'https://whop.com/checkout/plan_0DBS3ne0JVLhS',
-  'Growth Pro': 'https://whop.com/checkout/plan_aCelFgaz1Xpdb',
-  'Professional Suite': 'https://whop.com/checkout/plan_OCuSKCwdTIr06',
-  'Business Elite': 'https://whop.com/checkout/plan_rR0WC6TfL1t9Y',
-  'Complete Marketing': 'https://whop.com/checkout/plan_JVVYEuhP263fs',
-  'Ultimate Collection': 'https://whop.com/checkout/plan_LnJ4oMkQqfshS',
-};
+export const TIER_NAMES = [
+  'Essential Pack',
+  'Starter Bundle',
+  'Creative Kit',
+  'Growth Pro',
+  'Professional Suite',
+  'Business Elite',
+  'Complete Marketing',
+  'Ultimate Collection',
+] as const;
 
-export function getPaymentLinkForTier(tierName: string): string | null {
-  if (!tierName?.trim()) return null;
-  return TIER_PAYMENT_LINKS[tierName.trim()] ?? null;
+export function isKnownTier(tierName: string): boolean {
+  if (!tierName?.trim()) return false;
+  return (TIER_NAMES as readonly string[]).includes(tierName.trim());
+}
+
+/** @deprecated Kept for compatibility — bank transfer no longer uses payment links. */
+export function getPaymentLinkForTier(_tierName: string): string | null {
+  return null;
 }
 
 function escapeHtml(value: unknown): string {
@@ -27,41 +32,45 @@ function escapeHtml(value: unknown): string {
     .replaceAll("'", '&#039;');
 }
 
-export function buildCustomerInvoiceEmail({
+/**
+ * Customer confirmation after checkout form submit.
+ * Bank details are sent in a follow-up email from DesignFlare (personal contact).
+ */
+export function buildCustomerOrderConfirmationEmail({
   fullName,
   tierName,
   price,
-  paymentLink,
 }: {
   fullName: string;
   tierName: string;
   price: string;
-  paymentLink: string;
 }): { subject: string; text: string; html: string } {
   const safeName = fullName.trim();
   const safeTier = tierName.trim();
   const safePrice = price?.trim() || '';
-  const safeLink = paymentLink.trim();
 
-  const subject = `Your DesignFlare invoice — ${safeTier}`;
+  const subject = `Order received — ${safeTier} | DesignFlare`;
 
   const text = [
     `Hi ${safeName},`,
     '',
-    'Thank you for your order request with DesignFlare.',
+    'Thank you for submitting your order with DesignFlare. We have received your request and our team will contact you shortly.',
     '',
-    'Invoice summary',
+    'Order summary',
     `Product: ${safeTier}`,
     safePrice ? `Amount: ${safePrice}` : '',
     '',
-    'Complete your purchase using the secure Whop payment link below:',
-    safeLink,
+    'What happens next',
+    '1. We review your order and reply to this email with our bank transfer details and payment instructions.',
+    '2. You complete the bank transfer using those details (please keep your receipt).',
+    '3. Once payment is confirmed, we email your coded template ZIP download link and license credentials to this address.',
     '',
-    'After payment is confirmed, your coded template ZIP download link will be sent to this email address automatically.',
+    'This personal follow-up lets us confirm your order, answer questions, and make sure everything is clear before you pay.',
     '',
-    'If you have any questions, reply to this email or contact us at contact@designflare.de.',
+    'Please check your inbox (and Spam / Junk / Promotions folders) for our next message. If you need anything in the meantime, simply reply to this email or write to contact@designflare.de.',
     '',
-    '— DesignFlare',
+    '— DesignFlare (D.F)',
+    'Ayoub Esadik · contact@designflare.de',
   ]
     .filter(Boolean)
     .join('\n');
@@ -72,14 +81,14 @@ export function buildCustomerInvoiceEmail({
         <div style="border: 1px solid rgba(148,163,184,.35); border-radius: 16px; overflow: hidden; background: #ffffff; box-shadow: 0 18px 40px rgba(15,23,42,.08);">
           <div style="padding: 22px 24px; background: linear-gradient(135deg,#4f46e5,#6366f1); color: white;">
             <div style="font-weight: 800; font-size: 18px; letter-spacing: .02em;">DesignFlare</div>
-            <div style="opacity: .92; font-size: 13px; margin-top: 4px;">Whop invoice — ready for payment</div>
+            <div style="opacity: .92; font-size: 13px; margin-top: 4px;">Order received — bank transfer next</div>
           </div>
           <div style="padding: 24px;">
             <p style="margin: 0 0 16px 0; font-size: 15px;">Hi ${escapeHtml(safeName)},</p>
-            <p style="margin: 0 0 20px 0; color: #475569; font-size: 14px;">Thank you for your order request. Your invoice is ready — use the secure payment link below to complete your purchase via Whop.</p>
+            <p style="margin: 0 0 20px 0; color: #475569; font-size: 14px;">Thank you for submitting your order. We have received your request and will contact you personally with bank transfer details so everything is clear before you pay.</p>
 
             <div style="border: 1px solid rgba(148,163,184,.28); border-radius: 14px; padding: 16px 18px; background: #f8fafc; margin-bottom: 22px;">
-              <div style="font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: #64748b; margin-bottom: 10px;">Invoice summary</div>
+              <div style="font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: #64748b; margin-bottom: 10px;">Order summary</div>
               <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
                 <tr>
                   <td style="padding: 6px 0; color: #64748b; width: 100px;">Product</td>
@@ -96,19 +105,17 @@ export function buildCustomerInvoiceEmail({
               </table>
             </div>
 
-            <div style="text-align: center; margin: 28px 0;">
-              <a href="${escapeHtml(safeLink)}" style="display: inline-block; background: linear-gradient(135deg,#4f46e5,#6366f1); color: #ffffff; text-decoration: none; font-weight: 800; font-size: 15px; padding: 14px 28px; border-radius: 14px; box-shadow: 0 14px 32px rgba(79,70,229,.35);">Pay now via Whop</a>
+            <div style="padding: 14px 16px; background: rgba(79,70,229,.06); border: 1px solid rgba(79,70,229,.18); border-radius: 14px; margin-bottom: 18px;">
+              <div style="font-weight: 800; font-size: 13px; color: #3730a3; margin-bottom: 8px;">What happens next</div>
+              <ol style="margin: 0; padding-left: 18px; font-size: 13px; color: #4338ca;">
+                <li style="margin-bottom: 6px;">We email you our <strong>bank transfer details</strong> and payment instructions.</li>
+                <li style="margin-bottom: 6px;">You complete the transfer and keep your receipt.</li>
+                <li>After payment is confirmed, we send your coded template ZIP and license credentials to this email.</li>
+              </ol>
             </div>
 
-            <p style="margin: 0 0 8px 0; font-size: 12px; color: #64748b; text-align: center;">Or copy this link into your browser:</p>
-            <p style="margin: 0 0 22px 0; font-size: 12px; word-break: break-all; text-align: center;"><a href="${escapeHtml(safeLink)}" style="color: #4f46e5;">${escapeHtml(safeLink)}</a></p>
-
-            <div style="padding: 14px 16px; background: rgba(34,197,94,.08); border: 1px solid rgba(34,197,94,.22); border-radius: 14px; margin-bottom: 18px;">
-              <div style="font-weight: 800; font-size: 13px; color: #166534; margin-bottom: 4px;">What happens next</div>
-              <div style="font-size: 13px; color: #15803d;">Once payment is confirmed, your coded template ZIP download link will be delivered to this email automatically.</div>
-            </div>
-
-            <p style="margin: 0; font-size: 12px; color: #94a3b8; text-align: center;">Questions? Reply to this email or write to contact@designflare.de</p>
+            <p style="margin: 0 0 16px 0; font-size: 13px; color: #475569;">This personal follow-up helps us confirm your order, answer questions, and stay in direct contact with you.</p>
+            <p style="margin: 0; font-size: 12px; color: #94a3b8; text-align: center;">Questions? Reply to this email or write to <a href="mailto:contact@designflare.de" style="color: #4f46e5;">contact@designflare.de</a></p>
           </div>
         </div>
         <p style="margin: 14px 0 0 0; font-size: 11px; color: #94a3b8; text-align: center;">© DesignFlare — Premium coded templates</p>
@@ -117,4 +124,14 @@ export function buildCustomerInvoiceEmail({
   `.trim();
 
   return { subject, text, html };
+}
+
+/** @deprecated Use buildCustomerOrderConfirmationEmail */
+export function buildCustomerInvoiceEmail(args: {
+  fullName: string;
+  tierName: string;
+  price: string;
+  paymentLink?: string;
+}): { subject: string; text: string; html: string } {
+  return buildCustomerOrderConfirmationEmail(args);
 }

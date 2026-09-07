@@ -1,0 +1,24 @@
+{
+  "sku": "DF-LIC-CK-2549",
+  "name": "Creative Kit",
+  "slug": "03-creative-kit",
+  "tier": "low",
+  "tierLabel": "Niche Template Bundle",
+  "price": {
+    "amount": 25.49,
+    "currency": "EUR",
+    "display": "€25.49"
+  },
+  "totalAssets": 98,
+  "targetAssets": 75,
+  "tagline": "Agency-grade HTML/CSS systems with wireframes for creative studios.",
+  "checkoutUrl": "/pack/creative-kit.html",
+  "licenseIdentifier": "DF-LIC-CK-2549",
+  "stack": [
+    "HTML5",
+    "CSS3",
+    "Email HTML",
+    "Figma Specs"
+  ],
+  "billingNote": "DesignFlare operates a dynamic global ledger. All base digital assets are denominated in our primary corporate currency node. Listed Euro (€) checkout rates are calculated in real-time utilizing localized payment processing rails to ensure zero conversion spreads at settlement. Your final invoice receipt will accurately reflect these precise values under your secure data license identifier."
+}

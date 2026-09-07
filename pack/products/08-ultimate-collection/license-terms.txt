@@ -1,0 +1,21 @@
+DESIGNFLARE ENTERPRISE WHITE-LABEL LICENSE
+License Identifier: DF-LIC-UC-6748
+Product: Ultimate Collection
+Tier: Enterprise Agency Suite
+
+GRANT OF RIGHTS
+- Lifetime access to all components in this suite
+- White-label commercial rights for client deliverables
+- Rebrand components under your agency name
+- Unlimited deployed instances
+
+RESTRICTIONS
+- Do not resell raw source files as competing template products
+- Do not sublicense the master archive on marketplaces
+
+FUTURE UPDATES
+Includes all current and future component drops under DF-LIC-UC-6748
+
+DesignFlare operates a dynamic global ledger. All base digital assets are denominated in our primary corporate currency node. Listed Euro (€) checkout rates are calculated in real-time utilizing localized payment processing rails to ensure zero conversion spreads at settlement. Your final invoice receipt will accurately reflect these precise values under your secure data license identifier.
+
+© DesignFlare — designflare.de

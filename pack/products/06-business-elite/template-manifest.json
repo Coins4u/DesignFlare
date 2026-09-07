@@ -1,0 +1,271 @@
+{
+  "tier": "mid",
+  "frameworks": [
+    {
+      "framework": "Agency Hub",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/agency-hub/app/layout.tsx",
+        "templates/agency-hub/app/page.tsx",
+        "templates/agency-hub/app/globals.css",
+        "templates/agency-hub/app/api/agency-hub/route.ts",
+        "templates/agency-hub/components/*.tsx",
+        "templates/agency-hub/lib/validators.ts",
+        "templates/agency-hub/lib/rate-limit.ts",
+        "templates/agency-hub/tailwind.config.ts",
+        "templates/agency-hub/package.json"
+      ]
+    },
+    {
+      "framework": "Franchise Portal",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/franchise-portal/app/layout.tsx",
+        "templates/franchise-portal/app/page.tsx",
+        "templates/franchise-portal/app/globals.css",
+        "templates/franchise-portal/app/api/franchise-portal/route.ts",
+        "templates/franchise-portal/components/*.tsx",
+        "templates/franchise-portal/lib/validators.ts",
+        "templates/franchise-portal/lib/rate-limit.ts",
+        "templates/franchise-portal/tailwind.config.ts",
+        "templates/franchise-portal/package.json"
+      ]
+    },
+    {
+      "framework": "Startup Pitch",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/startup-pitch/app/layout.tsx",
+        "templates/startup-pitch/app/page.tsx",
+        "templates/startup-pitch/app/globals.css",
+        "templates/startup-pitch/app/api/startup-pitch/route.ts",
+        "templates/startup-pitch/components/*.tsx",
+        "templates/startup-pitch/lib/validators.ts",
+        "templates/startup-pitch/lib/rate-limit.ts",
+        "templates/startup-pitch/tailwind.config.ts",
+        "templates/startup-pitch/package.json"
+      ]
+    },
+    {
+      "framework": "Investor Deck Site",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/investor-deck-site/app/layout.tsx",
+        "templates/investor-deck-site/app/page.tsx",
+        "templates/investor-deck-site/app/globals.css",
+        "templates/investor-deck-site/app/api/investor-deck-site/route.ts",
+        "templates/investor-deck-site/components/*.tsx",
+        "templates/investor-deck-site/lib/validators.ts",
+        "templates/investor-deck-site/lib/rate-limit.ts",
+        "templates/investor-deck-site/tailwind.config.ts",
+        "templates/investor-deck-site/package.json"
+      ]
+    },
+    {
+      "framework": "Webinar Funnel",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/webinar-funnel/app/layout.tsx",
+        "templates/webinar-funnel/app/page.tsx",
+        "templates/webinar-funnel/app/globals.css",
+        "templates/webinar-funnel/app/api/webinar-funnel/route.ts",
+        "templates/webinar-funnel/components/*.tsx",
+        "templates/webinar-funnel/lib/validators.ts",
+        "templates/webinar-funnel/lib/rate-limit.ts",
+        "templates/webinar-funnel/tailwind.config.ts",
+        "templates/webinar-funnel/package.json"
+      ]
+    },
+    {
+      "framework": "Product Launch",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/product-launch/app/layout.tsx",
+        "templates/product-launch/app/page.tsx",
+        "templates/product-launch/app/globals.css",
+        "templates/product-launch/app/api/product-launch/route.ts",
+        "templates/product-launch/components/*.tsx",
+        "templates/product-launch/lib/validators.ts",
+        "templates/product-launch/lib/rate-limit.ts",
+        "templates/product-launch/tailwind.config.ts",
+        "templates/product-launch/package.json"
+      ]
+    },
+    {
+      "framework": "Affiliate Hub",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/affiliate-hub/app/layout.tsx",
+        "templates/affiliate-hub/app/page.tsx",
+        "templates/affiliate-hub/app/globals.css",
+        "templates/affiliate-hub/app/api/affiliate-hub/route.ts",
+        "templates/affiliate-hub/components/*.tsx",
+        "templates/affiliate-hub/lib/validators.ts",
+        "templates/affiliate-hub/lib/rate-limit.ts",
+        "templates/affiliate-hub/tailwind.config.ts",
+        "templates/affiliate-hub/package.json"
+      ]
+    },
+    {
+      "framework": "Membership Site",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/membership-site/app/layout.tsx",
+        "templates/membership-site/app/page.tsx",
+        "templates/membership-site/app/globals.css",
+        "templates/membership-site/app/api/membership-site/route.ts",
+        "templates/membership-site/components/*.tsx",
+        "templates/membership-site/lib/validators.ts",
+        "templates/membership-site/lib/rate-limit.ts",
+        "templates/membership-site/tailwind.config.ts",
+        "templates/membership-site/package.json"
+      ]
+    },
+    {
+      "framework": "Course Platform",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/course-platform/app/layout.tsx",
+        "templates/course-platform/app/page.tsx",
+        "templates/course-platform/app/globals.css",
+        "templates/course-platform/app/api/course-platform/route.ts",
+        "templates/course-platform/components/*.tsx",
+        "templates/course-platform/lib/validators.ts",
+        "templates/course-platform/lib/rate-limit.ts",
+        "templates/course-platform/tailwind.config.ts",
+        "templates/course-platform/package.json"
+      ]
+    },
+    {
+      "framework": "Newsletter SaaS",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/newsletter-saas/app/layout.tsx",
+        "templates/newsletter-saas/app/page.tsx",
+        "templates/newsletter-saas/app/globals.css",
+        "templates/newsletter-saas/app/api/newsletter-saas/route.ts",
+        "templates/newsletter-saas/components/*.tsx",
+        "templates/newsletter-saas/lib/validators.ts",
+        "templates/newsletter-saas/lib/rate-limit.ts",
+        "templates/newsletter-saas/tailwind.config.ts",
+        "templates/newsletter-saas/package.json"
+      ]
+    },
+    {
+      "framework": "Community App",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/community-app/app/layout.tsx",
+        "templates/community-app/app/page.tsx",
+        "templates/community-app/app/globals.css",
+        "templates/community-app/app/api/community-app/route.ts",
+        "templates/community-app/components/*.tsx",
+        "templates/community-app/lib/validators.ts",
+        "templates/community-app/lib/rate-limit.ts",
+        "templates/community-app/tailwind.config.ts",
+        "templates/community-app/package.json"
+      ]
+    },
+    {
+      "framework": "Marketplace",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/marketplace/app/layout.tsx",
+        "templates/marketplace/app/page.tsx",
+        "templates/marketplace/app/globals.css",
+        "templates/marketplace/app/api/marketplace/route.ts",
+        "templates/marketplace/components/*.tsx",
+        "templates/marketplace/lib/validators.ts",
+        "templates/marketplace/lib/rate-limit.ts",
+        "templates/marketplace/tailwind.config.ts",
+        "templates/marketplace/package.json"
+      ]
+    }
+  ],
+  "totalAssetsDelivered": 204,
+  "targetAssets": 140
+}

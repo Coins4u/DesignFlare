@@ -1,0 +1,183 @@
+{
+  "tier": "mid",
+  "frameworks": [
+    {
+      "framework": "SaaS Launch",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/saas-launch/app/layout.tsx",
+        "templates/saas-launch/app/page.tsx",
+        "templates/saas-launch/app/globals.css",
+        "templates/saas-launch/app/api/saas-launch/route.ts",
+        "templates/saas-launch/components/*.tsx",
+        "templates/saas-launch/lib/validators.ts",
+        "templates/saas-launch/lib/rate-limit.ts",
+        "templates/saas-launch/tailwind.config.ts",
+        "templates/saas-launch/package.json"
+      ]
+    },
+    {
+      "framework": "E-commerce Store",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/e-commerce-store/app/layout.tsx",
+        "templates/e-commerce-store/app/page.tsx",
+        "templates/e-commerce-store/app/globals.css",
+        "templates/e-commerce-store/app/api/e-commerce-store/route.ts",
+        "templates/e-commerce-store/components/*.tsx",
+        "templates/e-commerce-store/lib/validators.ts",
+        "templates/e-commerce-store/lib/rate-limit.ts",
+        "templates/e-commerce-store/tailwind.config.ts",
+        "templates/e-commerce-store/package.json"
+      ]
+    },
+    {
+      "framework": "Finance Dashboard",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/finance-dashboard/app/layout.tsx",
+        "templates/finance-dashboard/app/page.tsx",
+        "templates/finance-dashboard/app/globals.css",
+        "templates/finance-dashboard/app/api/finance-dashboard/route.ts",
+        "templates/finance-dashboard/components/*.tsx",
+        "templates/finance-dashboard/lib/validators.ts",
+        "templates/finance-dashboard/lib/rate-limit.ts",
+        "templates/finance-dashboard/tailwind.config.ts",
+        "templates/finance-dashboard/package.json"
+      ]
+    },
+    {
+      "framework": "Legal Services",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/legal-services/app/layout.tsx",
+        "templates/legal-services/app/page.tsx",
+        "templates/legal-services/app/globals.css",
+        "templates/legal-services/app/api/legal-services/route.ts",
+        "templates/legal-services/components/*.tsx",
+        "templates/legal-services/lib/validators.ts",
+        "templates/legal-services/lib/rate-limit.ts",
+        "templates/legal-services/tailwind.config.ts",
+        "templates/legal-services/package.json"
+      ]
+    },
+    {
+      "framework": "HR Platform",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/hr-platform/app/layout.tsx",
+        "templates/hr-platform/app/page.tsx",
+        "templates/hr-platform/app/globals.css",
+        "templates/hr-platform/app/api/hr-platform/route.ts",
+        "templates/hr-platform/components/*.tsx",
+        "templates/hr-platform/lib/validators.ts",
+        "templates/hr-platform/lib/rate-limit.ts",
+        "templates/hr-platform/tailwind.config.ts",
+        "templates/hr-platform/package.json"
+      ]
+    },
+    {
+      "framework": "Consulting Firm",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/consulting-firm/app/layout.tsx",
+        "templates/consulting-firm/app/page.tsx",
+        "templates/consulting-firm/app/globals.css",
+        "templates/consulting-firm/app/api/consulting-firm/route.ts",
+        "templates/consulting-firm/components/*.tsx",
+        "templates/consulting-firm/lib/validators.ts",
+        "templates/consulting-firm/lib/rate-limit.ts",
+        "templates/consulting-firm/tailwind.config.ts",
+        "templates/consulting-firm/package.json"
+      ]
+    },
+    {
+      "framework": "Nonprofit",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/nonprofit/app/layout.tsx",
+        "templates/nonprofit/app/page.tsx",
+        "templates/nonprofit/app/globals.css",
+        "templates/nonprofit/app/api/nonprofit/route.ts",
+        "templates/nonprofit/components/*.tsx",
+        "templates/nonprofit/lib/validators.ts",
+        "templates/nonprofit/lib/rate-limit.ts",
+        "templates/nonprofit/tailwind.config.ts",
+        "templates/nonprofit/package.json"
+      ]
+    },
+    {
+      "framework": "EdTech",
+      "stack": [
+        "Next.js 14",
+        "React 18",
+        "Tailwind CSS",
+        "TypeScript",
+        "API Middleware"
+      ],
+      "componentCount": 8,
+      "files": [
+        "templates/edtech/app/layout.tsx",
+        "templates/edtech/app/page.tsx",
+        "templates/edtech/app/globals.css",
+        "templates/edtech/app/api/edtech/route.ts",
+        "templates/edtech/components/*.tsx",
+        "templates/edtech/lib/validators.ts",
+        "templates/edtech/lib/rate-limit.ts",
+        "templates/edtech/tailwind.config.ts",
+        "templates/edtech/package.json"
+      ]
+    }
+  ],
+  "totalAssetsDelivered": 136,
+  "targetAssets": 95
+}

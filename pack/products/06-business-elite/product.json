@@ -1,0 +1,25 @@
+{
+  "sku": "DF-LIC-BE-4579",
+  "name": "Business Elite",
+  "slug": "06-business-elite",
+  "tier": "mid",
+  "tierLabel": "Full-Stack Developer Kit",
+  "price": {
+    "amount": 45.79,
+    "currency": "EUR",
+    "display": "€45.79"
+  },
+  "totalAssets": 204,
+  "targetAssets": 140,
+  "tagline": "Full-stack kits with rate-limited API pipelines and lead capture flows.",
+  "checkoutUrl": "/pack/business-elite.html",
+  "licenseIdentifier": "DF-LIC-BE-4579",
+  "stack": [
+    "Next.js 14",
+    "React 18",
+    "Tailwind CSS",
+    "TypeScript",
+    "API Routes"
+  ],
+  "billingNote": "DesignFlare operates a dynamic global ledger. All base digital assets are denominated in our primary corporate currency node. Listed Euro (€) checkout rates are calculated in real-time utilizing localized payment processing rails to ensure zero conversion spreads at settlement. Your final invoice receipt will accurately reflect these precise values under your secure data license identifier."
+}

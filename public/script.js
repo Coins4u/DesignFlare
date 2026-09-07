@@ -219,9 +219,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         return;
                     }
 
-                    const mainThanks = `Thank you, ${escapeLeadHtml(fullName)}. Your invoice with a secure payment link has been sent to ${escapeLeadHtml(email)}. Open the link from your inbox to complete checkout.`;
+                    const mainThanks = `Thank you, ${escapeLeadHtml(fullName)}. Your order request was sent successfully. Check ${escapeLeadHtml(email)} — we’ll email you shortly with our bank transfer details and next steps.`;
                     const inboxNote =
-                        'As soon as you finish your order, we’ll send you your order details. If it’s not in your inbox in the next few minutes after completing the payment, make sure to check your Spam or Junk folders.';
+                        'Please check your inbox and Spam / Junk / Promotions folders. After you receive our bank details and complete the transfer, we’ll confirm payment and send your coded template ZIP to the same email.';
                     if (successEl) {
                         successEl.innerHTML = `<p class="df-success-main">${mainThanks}</p><p class="df-success-note">${inboxNote}</p>`;
                         successEl.classList.remove('hidden');

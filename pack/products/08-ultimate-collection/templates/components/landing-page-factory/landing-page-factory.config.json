@@ -1,0 +1,17 @@
+{
+  "module": "Landing Page Factory",
+  "pack": "Ultimate Collection",
+  "version": "1.0.0",
+  "whiteLabel": true,
+  "tokens": [
+    "primary",
+    "surface",
+    "radius",
+    "shadow"
+  ],
+  "analyticsEvents": [
+    "module_view",
+    "module_deploy",
+    "module_config_save"
+  ]
+}

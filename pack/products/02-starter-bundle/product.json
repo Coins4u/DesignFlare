@@ -1,0 +1,24 @@
+{
+  "sku": "DF-LIC-SB-2312",
+  "name": "Starter Bundle",
+  "slug": "02-starter-bundle",
+  "tier": "low",
+  "tierLabel": "Niche Template Bundle",
+  "price": {
+    "amount": 23.12,
+    "currency": "EUR",
+    "display": "€23.12"
+  },
+  "totalAssets": 84,
+  "targetAssets": 65,
+  "tagline": "Expanded niche code packs for freelancers shipping client sites in hours.",
+  "checkoutUrl": "/pack/starter-bundle.html",
+  "licenseIdentifier": "DF-LIC-SB-2312",
+  "stack": [
+    "HTML5",
+    "CSS3",
+    "Email HTML",
+    "Figma Specs"
+  ],
+  "billingNote": "DesignFlare operates a dynamic global ledger. All base digital assets are denominated in our primary corporate currency node. Listed Euro (€) checkout rates are calculated in real-time utilizing localized payment processing rails to ensure zero conversion spreads at settlement. Your final invoice receipt will accurately reflect these precise values under your secure data license identifier."
+}

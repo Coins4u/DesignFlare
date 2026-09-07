@@ -19,7 +19,14 @@ const files = [
   'terms.html',
   'templates.html',
   'contact.html',
+  'thank-you.html',
   'default.php',
+  'favicon.ico',
+  'favicon-16x16.png',
+  'favicon-32x32.png',
+  'apple-touch-icon.png',
+  'icon-192.png',
+  'icon-512.png',
 ];
 
 await mkdir(pub, { recursive: true });
@@ -43,4 +50,15 @@ try {
 
 await cp(path.join(root, 'pack'), path.join(pub, 'pack'), { recursive: true, force: true });
 console.log('copied pack/');
+
+try {
+  await cp(path.join(root, 'legal', 'pdfs'), path.join(pub, 'legal', 'pdfs'), {
+    recursive: true,
+    force: true,
+  });
+  console.log('copied legal/pdfs/');
+} catch {
+  /* optional */
+}
+
 console.log('public/ is in sync with project root assets.');
